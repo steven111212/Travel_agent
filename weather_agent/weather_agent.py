@@ -22,15 +22,21 @@ class WeatherQuery:
         try:
             #在天氣資料中找出指定行政區的資料
             week_bool = check_time_difference(LLM_response)  #檢查天數是否超過3天
-            weather_data = self.get_weather_forecast(LLM_response['台灣縣市'], week_bool)
+            weather_data = self.get_weather_forecast(LLM_response['台灣縣市'], LLM_response['鄉鎮市區'], week_bool)
             if not weather_data:
                     return "無法獲取天氣數據"
             district_index = -1
-            for i, location in enumerate(weather_data['records']['Locations'][0]['Location']):
-                if location['LocationName'] == LLM_response['鄉鎮市區']:
-                    district_index = i
-                    break
-
+            if LLM_response['鄉鎮市區']:
+                for i, location in enumerate(weather_data['records']['Locations'][0]['Location']):
+                    if location['LocationName'] == LLM_response['鄉鎮市區']:
+                        district_index = i
+                        break
+            else:
+                for i, location in enumerate(weather_data['records']['Locations'][0]['Location']):
+                    if location['LocationName'] == LLM_response['台灣縣市'] or location['LocationName'] == LLM_response['台灣縣市'].replace("台", "臺"):
+                        district_index = i
+                        break
+                    
             if district_index == -1:
                 return "找不到指定的行政區"
             
@@ -95,7 +101,7 @@ class WeatherQuery:
             print(f"發生錯誤: {str(e)}")
             return None
 
-    def get_weather_forecast(self, city, week=False):
+    def get_weather_forecast(self, city, location, week=False):
         # 設定基本 URL
         if week:
             city_code = {'宜蘭縣':"003", '桃園市':'007', '新竹縣':'011', '苗栗縣':'015', '彰化縣':'019', '南投縣':'023', 
@@ -110,9 +116,16 @@ class WeatherQuery:
         
         base_url = "https://opendata.cwa.gov.tw/api"
         
-        # API 端點路徑
-        endpoint = "/v1/rest/datastore/F-D0047-"+city_code[city]  # 一般天氣預報-今明 36 小時天氣預報
-        
+        if location:
+            # API 端點路徑
+            endpoint = "/v1/rest/datastore/F-D0047-"+city_code[city]  # 一般天氣預報-今明 36 小時天氣預報
+        elif week:
+            endpoint = "/v1/rest/datastore/F-D0047-091"
+            print('here')
+        else:
+            print('here2')
+            endpoint = "/v1/rest/datastore/F-D0047-089"
+
         api_key = ""
         
         # 設定請求參數
@@ -184,21 +197,18 @@ def create_prompt(query):
 今天日期 : {default_time['date']}
 現在時間 : {default_time['time']}
 任務說明:
-1. 從用戶輸入中識別出目的地以及目的地所在縣市和地區、日期和時間
+1. 從用戶輸入中識別出目的地以及日期和時間
 2. 如果沒有明確指定日期使用 {default_time['date']}
 3. 如果沒有明確指定時間使用 {default_time['time']}
-4. 需要判斷地標或景點所在的確切行政區
-5. 時間格式規範:
+4. 時間格式規範:
    - 時間必須使用24小時制的"HH:MM"格式
    - 小時必須是兩位數(00-23)
    - 分鐘必須是兩位數(00-59)
    - 小時和分鐘之間使用冒號(:)分隔
    - 例如: "08:30", "14:45", "23:15"
-6. 如果用戶沒有指定鄉鎮市區，則使用該縣市最大的鄉鎮市區
-7. 輸出格式必須是以下JSON格式的中文回答:
+5. 輸出格式必須是以下JSON格式的中文回答:
     {{
-        "台灣縣市": "二級行政區名稱",
-        "鄉鎮市區": "三級行政區名稱",
+        "地點": "目的地",
         "日期": "YYYY-MM-DD",
         "時間": "HH:MM"
     }}
@@ -258,15 +268,19 @@ def run_interactive_weather_query():
             
             # 處理查詢
             result = handler.query_weather(user_input)
-            result['時間'] = format_time(result['時間'])  #時間格式處理
             print(result)
+            result['時間'] = format_time(result['時間'])  #時間格式處理
+            city, location = get_place_info(result['地點'])
+            result['台灣縣市'] = city
+            result['鄉鎮市區'] = location
             if "台" in result["台灣縣市"]:
                 result["台灣縣市"] = result["台灣縣市"].replace("台", "臺")
             weather_desc = handler.find_weather_description(result)
             sunrise_data = handler.get_sunrise_data(result)
             # 輸出結果
             print(f"\n查詢結果:")
-            print(f"地點: {result['台灣縣市']}{result['鄉鎮市區']}")
+            print(f"台灣縣市: {result['台灣縣市']}")
+            print(f"鄉鎮市區: {result['鄉鎮市區']}")
             print(f"時間: {result['日期']} {result['時間']}")
             print(f"天氣狀況: {weather_desc}")
             print(f"日出時間:{sunrise_data['SunRiseTime']}")
@@ -276,6 +290,59 @@ def run_interactive_weather_query():
         except Exception as e:
             print(f"抱歉，查詢過程中發生錯誤: {str(e)}")
             print("請重新輸入查詢\n")
+
+
+def get_place_info(place_name):
+    """
+    使用Google Places API查询地点信息
+    
+    参数:
+    place_name (str): 要查询的地点名称，例如 "千巧谷"
+    api_key (str): Google Places API密钥
+    
+    返回:
+    dict: 包含地点信息的字典
+    """
+    # 设置API端点和参数
+    base_url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json"
+    params = {
+        "input": place_name,
+        "inputtype": "textquery",
+        "fields": "formatted_address,name,geometry,place_id",
+        "language": "zh-TW",  # 设置返回结果为繁体中文
+        "key": ''
+    }
+    
+    # 发送请求
+    response = requests.get(base_url, params=params)
+    results = response.json()
+    result = results['candidates'][0]['formatted_address']
+
+    city_list = [
+        '台北市', '新北市', '基隆市', '桃園市', '新竹市', '新竹縣',
+        '苗栗縣', '台中市', '彰化縣', '南投縣', '雲林縣', '嘉義市',
+        '嘉義縣', '台南市', '高雄市', '屏東縣', '宜蘭縣', '花蓮縣',
+        '台東縣', '澎湖縣', '金門縣', '連江縣',
+        # 另一種寫法
+        '臺北市', '臺中市', '臺南市', '臺東縣'
+    ]
+    # 提取縣市
+    city = None
+    for c in city_list:
+        if c in result:
+            city = c
+            break
+    city_index = result.index(city)
+    city_after = result[city_index+len(city):]
+    location = ['區', '鄉', '鎮', '市']
+    location_name = None
+    for i in location:
+        location_index = city_after.find(i)
+        if location_index > 0:
+            location_name = city_after[:location_index+1]
+            break
+    return (city, location_name)
+
 
 if __name__ == "__main__":
     # try:
