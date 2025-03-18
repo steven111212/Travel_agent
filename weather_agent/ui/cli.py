@@ -5,13 +5,19 @@ logger = logging.getLogger(__name__)
 
 def display_weather_trend(forecast_data):
     """以ASCII圖表顯示天氣趨勢"""
+
+    output_messages = ""
+    
     print("\n==== 未來天氣趨勢 ====")
+    output_messages += "\n==== 未來天氣趨勢 ===="
     
     # 顯示日期標頭
     date_header = " " * 10
     for day in forecast_data:
         date_header += f"{day['日期'][5:]} "
     print(date_header)
+    output_messages += date_header
+
     
     # 顯示天氣圖示
     weather_icons = " " * 10
@@ -25,12 +31,14 @@ def display_weather_trend(forecast_data):
         else:
             weather_icons += " 🌤️    "
     print(weather_icons)
+    output_messages += weather_icons
     
     # 顯示溫度
     temp_line = "溫度(°C): "
     for day in forecast_data:
         temp_line += f" {day['平均溫度']:2d}°  "
     print(temp_line)
+    output_messages += temp_line
     
     # 顯示降雨機率
     rain_line = "降雨(%):  "
@@ -40,7 +48,7 @@ def display_weather_trend(forecast_data):
         else:
             rain_line += f"  -   "
     print(rain_line)
-    
+    output_messages += rain_line
     # 戶外適宜度
     suitability_line = "戶外適宜: "
     for day in forecast_data:
@@ -53,6 +61,8 @@ def display_weather_trend(forecast_data):
         else:
             suitability_line += " 👎   "
     print(suitability_line)
+    output_messages += suitability_line
+    return output_messages
  
 
 def run_interactive_weather_query():
@@ -153,6 +163,8 @@ def run_interactive_weather_query():
             logger.error(f"查詢處理錯誤: {e}")
             print(f"抱歉，查詢過程中發生錯誤: {str(e)}")
             print("請重新輸入查詢\n")
+
+
 
 if __name__ == "__main__":
     # 設定日誌

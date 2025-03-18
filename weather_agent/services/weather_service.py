@@ -28,7 +28,6 @@ class WeatherService:
             city, location = self.location_api.get_place_info(result['地點'])
             result['台灣縣市'] = city
             result['鄉鎮市區'] = location
-            
             # 處理時間格式
             if result['查詢類型'] == '單日':
                 result['時間'] = format_time(result['時間'])
@@ -41,7 +40,7 @@ class WeatherService:
             
         except Exception as e:
             logger.error(f"LLM查詢失敗: {e}")
-            raise Exception(f"處理查詢時發生錯誤: {str(e)}")
+            raise Exception(f"😢 抱歉，我不太確定您指的是哪個地點。可以請您提供更詳細的名稱嗎？")
     
     def get_single_day_weather(self, query_result: Dict[str, Any]) -> Dict[str, Any]:
         try:

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent</title>
+    <style>
+        /* 機器人消息中的預格式化文本樣式 */
+        .bot-message pre {
+            background-color: transparent;
+            border: none;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+            max-width: 100%;
+            white-space: pre-wrap;
+        }
+
+        /* 調整機器人消息容器以適應預格式化文本 */
+        .bot-message {
+            background-color: #f1f1f1;
+            margin-right: auto;
+            border-bottom-left-radius: 5px;
+            max-width: 85% !important; /* 增加寬度以適應格式化文本 */
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* 當機器人消息包含預格式化文本時的樣式 */
+        .bot-message.formatted-text {
+            padding: 5px 10px;
+            background-color: #f8f8f8;
+        }
+        
+        /* 添加適當的水平線樣式 */
+        .bot-message hr {
+            border: none;
+            border-top: 1px dashed #ccc;
+            margin: 10px 0;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .chat-container {
+            height: 70vh;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow-y: auto;
+            padding: 15px;
+            background-color: white;
+            margin-bottom: 15px;
+        }
+        .message {
+            padding: 10px 15px;
+            border-radius: 18px;
+            margin-bottom: 10px;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+        .user-message {
+            background-color: #e3f2fd;
+            margin-left: auto;
+            border-bottom-right-radius: 5px;
+        }
+        .input-container {
+            display: flex;
+            gap: 10px;
+        }
+        #user-input {
+            flex-grow: 1;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            padding: 12px 20px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #3367d6;
+        }
+        .typing-indicator {
+            display: none;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .system-controls {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            border: 1px solid #eee;
+        }
+
+        /* 新增樣式：Google Maps 連結 */
+        .google-maps-link {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .google-maps-link:hover {
+            text-decoration: underline;
+        }
+
+        /* 新增樣式：步驟文字 */
+        .step-text {
+            color: #4CAF50; /* 綠色 */
+            font-weight: bold;
+        }
+
+        /* 新增樣式：交通方式文字 */
+        .transport-text {
+            color: #9C27B0; /* 紫色 */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Travel Agent</h1>
+    
+    <div class="chat-container" id="chat-container">
+        <div class="message bot-message">您好！我是您的旅遊AI助手，可以提供天氣和交通規劃資訊。有什麼可以幫助您的嗎？</div>
+    </div>
+    
+    <div class="typing-indicator" id="typing-indicator">AI正在思考中...</div>
+    
+    <div class="input-container">
+        <input type="text" id="user-input" placeholder="輸入訊息..." autocomplete="off">
+        <button id="send-button">發送</button>
+    </div>
+
+    <!-- 正確引入JavaScript文件 -->
+    <script src="{{ url_for('static', filename='test.js') }}"></script>
+</body>
+</html>

@@ -78,3 +78,5 @@ class WeatherAnalysisService:
         # 輸出所有警告
         for warning in warnings:
             print(warning)
+            
+        return warnings, rain_prob
