@@ -1,0 +1,4256 @@
+{
+  "highways": {
+    "國道1號": [
+      {
+        "sectionId": "0001",
+        "section": "國道1號(基隆端到基隆交流道)",
+        "from": "基隆端",
+        "to": "基隆交流道",
+        "speed": 68.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0003",
+        "section": "國道1號(基隆交流道到八堵交流道)",
+        "from": "基隆交流道",
+        "to": "八堵交流道",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0005",
+        "section": "國道1號(八堵交流道到大華系統交流道)",
+        "from": "八堵交流道",
+        "to": "大華系統交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0419",
+        "section": "國道1號(大華系統交流道到五堵交流道)",
+        "from": "大華系統交流道",
+        "to": "五堵交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0007",
+        "section": "國道1號(五堵交流道到汐止交流道)",
+        "from": "五堵交流道",
+        "to": "汐止交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0011",
+        "section": "國道1號(汐止交流道到汐止系統交流道)",
+        "from": "汐止交流道",
+        "to": "汐止系統交流道",
+        "speed": 77.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0013",
+        "section": "國道1號(汐止系統交流道到高架汐止端)",
+        "from": "汐止系統交流道",
+        "to": "高架汐止端",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0015",
+        "section": "國道1號(高架汐止端到東湖交流道)",
+        "from": "高架汐止端",
+        "to": "東湖交流道",
+        "speed": 77.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0017",
+        "section": "國道1號(東湖交流道到內湖交流道)",
+        "from": "東湖交流道",
+        "to": "內湖交流道",
+        "speed": 76.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0019",
+        "section": "國道1號(內湖交流道到圓山交流道)",
+        "from": "內湖交流道",
+        "to": "圓山交流道",
+        "speed": 60.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0021",
+        "section": "國道1號(圓山交流道到台北交流道)",
+        "from": "圓山交流道",
+        "to": "台北交流道",
+        "speed": 60.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0023",
+        "section": "國道1號(台北交流道到三重交流道)",
+        "from": "台北交流道",
+        "to": "三重交流道",
+        "speed": 82.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0025",
+        "section": "國道1號(三重交流道到五股轉接道交流道)",
+        "from": "三重交流道",
+        "to": "五股轉接道交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0027",
+        "section": "國道1號(五股轉接道交流道到五股交流道)",
+        "from": "五股轉接道交流道",
+        "to": "五股交流道",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0029",
+        "section": "國道1號(五股交流道到高公局交流道)",
+        "from": "五股交流道",
+        "to": "高公局交流道",
+        "speed": 75.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0031",
+        "section": "國道1號(高公局交流道到泰山轉接道交流道)",
+        "from": "高公局交流道",
+        "to": "泰山轉接道交流道",
+        "speed": 86.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0425",
+        "section": "國道1號(泰山轉接道交流道到林口交流道)",
+        "from": "泰山轉接道交流道",
+        "to": "林口交流道",
+        "speed": 75.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0033",
+        "section": "國道1號(林口交流道到桃園交流道)",
+        "from": "林口交流道",
+        "to": "桃園交流道",
+        "speed": 91.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0035",
+        "section": "國道1號(桃園交流道到機場系統交流道)",
+        "from": "桃園交流道",
+        "to": "機場系統交流道",
+        "speed": 79.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0037",
+        "section": "國道1號(機場系統交流道到中壢服務區)",
+        "from": "機場系統交流道",
+        "to": "中壢服務區",
+        "speed": 79.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0039",
+        "section": "國道1號(中壢服務區到內壢交流道)",
+        "from": "中壢服務區",
+        "to": "內壢交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0041",
+        "section": "國道1號(內壢交流道到中壢轉接一交流道)",
+        "from": "內壢交流道",
+        "to": "中壢轉接一交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0427",
+        "section": "國道1號(中壢轉接一交流道到中壢轉接二交流道)",
+        "from": "中壢轉接一交流道",
+        "to": "中壢轉接二交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0429",
+        "section": "國道1號(中壢轉接二交流道到中壢交流道)",
+        "from": "中壢轉接二交流道",
+        "to": "中壢交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0043",
+        "section": "國道1號(中壢交流道到平鎮系統交流道)",
+        "from": "中壢交流道",
+        "to": "平鎮系統交流道",
+        "speed": 76.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0045",
+        "section": "國道1號(平鎮系統交流道到幼獅交流道)",
+        "from": "平鎮系統交流道",
+        "to": "幼獅交流道",
+        "speed": 83.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0047",
+        "section": "國道1號(幼獅交流道到楊梅交流道)",
+        "from": "幼獅交流道",
+        "to": "楊梅交流道",
+        "speed": 86.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0049",
+        "section": "國道1號(楊梅交流道到高架楊梅端)",
+        "from": "楊梅交流道",
+        "to": "高架楊梅端",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0431",
+        "section": "國道1號(高架楊梅端到湖口交流道)",
+        "from": "高架楊梅端",
+        "to": "湖口交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0053",
+        "section": "國道1號(湖口交流道到湖口服務區)",
+        "from": "湖口交流道",
+        "to": "湖口服務區",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0055",
+        "section": "國道1號(湖口服務區到竹北交流道)",
+        "from": "湖口服務區",
+        "to": "竹北交流道",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0057",
+        "section": "國道1號(竹北交流道到新竹交流道)",
+        "from": "竹北交流道",
+        "to": "新竹交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0059",
+        "section": "國道1號(新竹交流道到新竹系統交流道)",
+        "from": "新竹交流道",
+        "to": "新竹系統交流道",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0061",
+        "section": "國道1號(新竹系統交流道到頭份交流道)",
+        "from": "新竹系統交流道",
+        "to": "頭份交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0063",
+        "section": "國道1號(頭份交流道到頭屋交流道)",
+        "from": "頭份交流道",
+        "to": "頭屋交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0445",
+        "section": "國道1號(頭屋交流道到苗栗交流道)",
+        "from": "頭屋交流道",
+        "to": "苗栗交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0067",
+        "section": "國道1號(苗栗交流道到銅鑼交流道)",
+        "from": "苗栗交流道",
+        "to": "銅鑼交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0443",
+        "section": "國道1號(銅鑼交流道到三義交流道)",
+        "from": "銅鑼交流道",
+        "to": "三義交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0069",
+        "section": "國道1號(三義交流道到泰安服務區)",
+        "from": "三義交流道",
+        "to": "泰安服務區",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0071",
+        "section": "國道1號(泰安服務區到后里交流道)",
+        "from": "泰安服務區",
+        "to": "后里交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0073",
+        "section": "國道1號(后里交流道到台中系統交流道)",
+        "from": "后里交流道",
+        "to": "台中系統交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0077",
+        "section": "國道1號(台中系統交流道到豐原交流道)",
+        "from": "台中系統交流道",
+        "to": "豐原交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0079",
+        "section": "國道1號(豐原交流道到大雅系統交流道)",
+        "from": "豐原交流道",
+        "to": "大雅系統交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0493",
+        "section": "國道1號(大雅系統交流道到大雅交流道)",
+        "from": "大雅系統交流道",
+        "to": "大雅交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0081",
+        "section": "國道1號(大雅交流道到台中交流道)",
+        "from": "大雅交流道",
+        "to": "台中交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0083",
+        "section": "國道1號(台中交流道到南屯交流道)",
+        "from": "台中交流道",
+        "to": "南屯交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0085",
+        "section": "國道1號(南屯交流道到王田交流道)",
+        "from": "南屯交流道",
+        "to": "王田交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0087",
+        "section": "國道1號(王田交流道到彰化系統交流道)",
+        "from": "王田交流道",
+        "to": "彰化系統交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0089",
+        "section": "國道1號(彰化系統交流道到彰化交流道)",
+        "from": "彰化系統交流道",
+        "to": "彰化交流道",
+        "speed": 86.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0091",
+        "section": "國道1號(彰化交流道到埔鹽系統交流道)",
+        "from": "彰化交流道",
+        "to": "埔鹽系統交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0093",
+        "section": "國道1號(埔鹽系統交流道到員林交流道)",
+        "from": "埔鹽系統交流道",
+        "to": "員林交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0095",
+        "section": "國道1號(員林交流道到北斗交流道)",
+        "from": "員林交流道",
+        "to": "北斗交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0099",
+        "section": "國道1號(北斗交流道到西螺服務區)",
+        "from": "北斗交流道",
+        "to": "西螺服務區",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0101",
+        "section": "國道1號(西螺服務區到西螺交流道)",
+        "from": "西螺服務區",
+        "to": "西螺交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0103",
+        "section": "國道1號(西螺交流道到虎尾交流道)",
+        "from": "西螺交流道",
+        "to": "虎尾交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0423",
+        "section": "國道1號(虎尾交流道到斗南交流道)",
+        "from": "虎尾交流道",
+        "to": "斗南交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0105",
+        "section": "國道1號(斗南交流道到雲林系統交流道)",
+        "from": "斗南交流道",
+        "to": "雲林系統交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0107",
+        "section": "國道1號(雲林系統交流道到大林交流道)",
+        "from": "雲林系統交流道",
+        "to": "大林交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0111",
+        "section": "國道1號(大林交流道到民雄交流道)",
+        "from": "大林交流道",
+        "to": "民雄交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0421",
+        "section": "國道1號(民雄交流道到嘉義交流道)",
+        "from": "民雄交流道",
+        "to": "嘉義交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0113",
+        "section": "國道1號(嘉義交流道到水上交流道)",
+        "from": "嘉義交流道",
+        "to": "水上交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0115",
+        "section": "國道1號(水上交流道到嘉義系統交流道)",
+        "from": "水上交流道",
+        "to": "嘉義系統交流道",
+        "speed": 106.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0117",
+        "section": "國道1號(嘉義系統交流道到新營服務區)",
+        "from": "嘉義系統交流道",
+        "to": "新營服務區",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0121",
+        "section": "國道1號(新營服務區到新營交流道)",
+        "from": "新營服務區",
+        "to": "新營交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0123",
+        "section": "國道1號(新營交流道到下營系統交流道)",
+        "from": "新營交流道",
+        "to": "下營系統交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0415",
+        "section": "國道1號(下營系統交流道到麻豆交流道)",
+        "from": "下營系統交流道",
+        "to": "麻豆交流道",
+        "speed": 106.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0125",
+        "section": "國道1號(麻豆交流道到安定交流道)",
+        "from": "麻豆交流道",
+        "to": "安定交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0127",
+        "section": "國道1號(安定交流道到台南系統交流道)",
+        "from": "安定交流道",
+        "to": "台南系統交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0131",
+        "section": "國道1號(台南系統交流道到永康交流道)",
+        "from": "台南系統交流道",
+        "to": "永康交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0133",
+        "section": "國道1號(永康交流道到大灣交流道)",
+        "from": "永康交流道",
+        "to": "大灣交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0467",
+        "section": "國道1號(大灣交流道到仁德交流道)",
+        "from": "大灣交流道",
+        "to": "仁德交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0135",
+        "section": "國道1號(仁德交流道到仁德系統交流道)",
+        "from": "仁德交流道",
+        "to": "仁德系統交流道",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0137",
+        "section": "國道1號(仁德系統交流道到仁德服務區)",
+        "from": "仁德系統交流道",
+        "to": "仁德服務區",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0139",
+        "section": "國道1號(仁德服務區到路竹交流道)",
+        "from": "仁德服務區",
+        "to": "路竹交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0141",
+        "section": "國道1號(路竹交流道到高科交流道)",
+        "from": "路竹交流道",
+        "to": "高科交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0413",
+        "section": "國道1號(高科交流道到岡山交流道)",
+        "from": "高科交流道",
+        "to": "岡山交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0145",
+        "section": "國道1號(岡山交流道到楠梓交流道)",
+        "from": "岡山交流道",
+        "to": "楠梓交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0147",
+        "section": "國道1號(楠梓交流道到鼎金系統交流道)",
+        "from": "楠梓交流道",
+        "to": "鼎金系統交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0149",
+        "section": "國道1號(鼎金系統交流道到高雄交流道)",
+        "from": "鼎金系統交流道",
+        "to": "高雄交流道",
+        "speed": 79.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0151",
+        "section": "國道1號(高雄交流道到瑞隆路交流道)",
+        "from": "高雄交流道",
+        "to": "瑞隆路交流道",
+        "speed": 82.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0153",
+        "section": "國道1號(瑞隆路交流道到五甲系統交流道)",
+        "from": "瑞隆路交流道",
+        "to": "五甲系統交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0155",
+        "section": "國道1號(五甲系統交流道到五甲交流道)",
+        "from": "五甲系統交流道",
+        "to": "五甲交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0157",
+        "section": "國道1號(五甲交流道到中山四路交流道)",
+        "from": "五甲交流道",
+        "to": "中山四路交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0455",
+        "section": "國道1號(中山四路交流道到漁港路交流道)",
+        "from": "中山四路交流道",
+        "to": "漁港路交流道",
+        "speed": 64.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0457",
+        "section": "國道1號(漁港路交流道到高雄端)",
+        "from": "漁港路交流道",
+        "to": "高雄端",
+        "speed": 67.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0002",
+        "section": "國道1號(基隆交流道到基隆端)",
+        "from": "基隆交流道",
+        "to": "基隆端",
+        "speed": 58.0,
+        "congestionDegree": "3",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0004",
+        "section": "國道1號(八堵交流道到基隆交流道)",
+        "from": "八堵交流道",
+        "to": "基隆交流道",
+        "speed": 86.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0006",
+        "section": "國道1號(大華系統交流道到八堵交流道)",
+        "from": "大華系統交流道",
+        "to": "八堵交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0420",
+        "section": "國道1號(五堵交流道到大華系統交流道)",
+        "from": "五堵交流道",
+        "to": "大華系統交流道",
+        "speed": 80.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0008",
+        "section": "國道1號(汐止交流道到五堵交流道)",
+        "from": "汐止交流道",
+        "to": "五堵交流道",
+        "speed": 79.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0012",
+        "section": "國道1號(汐止系統交流道到汐止交流道)",
+        "from": "汐止系統交流道",
+        "to": "汐止交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0014",
+        "section": "國道1號(高架汐止端到汐止系統交流道)",
+        "from": "高架汐止端",
+        "to": "汐止系統交流道",
+        "speed": 83.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0016",
+        "section": "國道1號(東湖交流道到高架汐止端)",
+        "from": "東湖交流道",
+        "to": "高架汐止端",
+        "speed": 82.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0018",
+        "section": "國道1號(內湖交流道到東湖交流道)",
+        "from": "內湖交流道",
+        "to": "東湖交流道",
+        "speed": 76.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0020",
+        "section": "國道1號(圓山交流道到內湖交流道)",
+        "from": "圓山交流道",
+        "to": "內湖交流道",
+        "speed": 62.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0022",
+        "section": "國道1號(台北交流道到圓山交流道)",
+        "from": "台北交流道",
+        "to": "圓山交流道",
+        "speed": 67.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0024",
+        "section": "國道1號(三重交流道到台北交流道)",
+        "from": "三重交流道",
+        "to": "台北交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0026",
+        "section": "國道1號(五股轉接道交流道到三重交流道)",
+        "from": "五股轉接道交流道",
+        "to": "三重交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0028",
+        "section": "國道1號(五股交流道到五股轉接道交流道)",
+        "from": "五股交流道",
+        "to": "五股轉接道交流道",
+        "speed": 79.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0030",
+        "section": "國道1號(高公局交流道到五股交流道)",
+        "from": "高公局交流道",
+        "to": "五股交流道",
+        "speed": 64.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0032",
+        "section": "國道1號(泰山轉接道交流道到高公局交流道)",
+        "from": "泰山轉接道交流道",
+        "to": "高公局交流道",
+        "speed": 77.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0426",
+        "section": "國道1號(林口交流道到泰山轉接道交流道)",
+        "from": "林口交流道",
+        "to": "泰山轉接道交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0034",
+        "section": "國道1號(桃園交流道到林口交流道)",
+        "from": "桃園交流道",
+        "to": "林口交流道",
+        "speed": 76.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0036",
+        "section": "國道1號(機場系統交流道到桃園交流道)",
+        "from": "機場系統交流道",
+        "to": "桃園交流道",
+        "speed": 83.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0038",
+        "section": "國道1號(中壢服務區到機場系統交流道)",
+        "from": "中壢服務區",
+        "to": "機場系統交流道",
+        "speed": 71.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0040",
+        "section": "國道1號(內壢交流道到中壢服務區)",
+        "from": "內壢交流道",
+        "to": "中壢服務區",
+        "speed": 78.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0042",
+        "section": "國道1號(中壢轉接一交流道到內壢交流道)",
+        "from": "中壢轉接一交流道",
+        "to": "內壢交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0428",
+        "section": "國道1號(中壢轉接二交流道到中壢轉接一交流道)",
+        "from": "中壢轉接二交流道",
+        "to": "中壢轉接一交流道",
+        "speed": 75.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0430",
+        "section": "國道1號(中壢交流道到中壢轉接二交流道)",
+        "from": "中壢交流道",
+        "to": "中壢轉接二交流道",
+        "speed": 80.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0044",
+        "section": "國道1號(平鎮系統交流道到中壢交流道)",
+        "from": "平鎮系統交流道",
+        "to": "中壢交流道",
+        "speed": 83.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0046",
+        "section": "國道1號(幼獅交流道到平鎮系統交流道)",
+        "from": "幼獅交流道",
+        "to": "平鎮系統交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0048",
+        "section": "國道1號(楊梅交流道到幼獅交流道)",
+        "from": "楊梅交流道",
+        "to": "幼獅交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0050",
+        "section": "國道1號(高架楊梅端到楊梅交流道)",
+        "from": "高架楊梅端",
+        "to": "楊梅交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0432",
+        "section": "國道1號(湖口交流道到高架楊梅端)",
+        "from": "湖口交流道",
+        "to": "高架楊梅端",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0054",
+        "section": "國道1號(湖口服務區到湖口交流道)",
+        "from": "湖口服務區",
+        "to": "湖口交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0056",
+        "section": "國道1號(竹北交流道到湖口服務區)",
+        "from": "竹北交流道",
+        "to": "湖口服務區",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0058",
+        "section": "國道1號(新竹交流道到竹北交流道)",
+        "from": "新竹交流道",
+        "to": "竹北交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0060",
+        "section": "國道1號(新竹系統交流道到新竹交流道)",
+        "from": "新竹系統交流道",
+        "to": "新竹交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0062",
+        "section": "國道1號(頭份交流道到新竹系統交流道)",
+        "from": "頭份交流道",
+        "to": "新竹系統交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0064",
+        "section": "國道1號(頭屋交流道到頭份交流道)",
+        "from": "頭屋交流道",
+        "to": "頭份交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0446",
+        "section": "國道1號(苗栗交流道到頭屋交流道)",
+        "from": "苗栗交流道",
+        "to": "頭屋交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0068",
+        "section": "國道1號(銅鑼交流道到苗栗交流道)",
+        "from": "銅鑼交流道",
+        "to": "苗栗交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0444",
+        "section": "國道1號(三義交流道到銅鑼交流道)",
+        "from": "三義交流道",
+        "to": "銅鑼交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0070",
+        "section": "國道1號(泰安服務區到三義交流道)",
+        "from": "泰安服務區",
+        "to": "三義交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0072",
+        "section": "國道1號(后里交流道到泰安服務區)",
+        "from": "后里交流道",
+        "to": "泰安服務區",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0074",
+        "section": "國道1號(台中系統交流道到后里交流道)",
+        "from": "台中系統交流道",
+        "to": "后里交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0078",
+        "section": "國道1號(豐原交流道到台中系統交流道)",
+        "from": "豐原交流道",
+        "to": "台中系統交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0080",
+        "section": "國道1號(大雅系統交流道到豐原交流道)",
+        "from": "大雅系統交流道",
+        "to": "豐原交流道",
+        "speed": 50.0,
+        "congestionDegree": "3",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0494",
+        "section": "國道1號(大雅交流道到大雅系統交流道)",
+        "from": "大雅交流道",
+        "to": "大雅系統交流道",
+        "speed": 20.0,
+        "congestionDegree": "4",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0082",
+        "section": "國道1號(台中交流道到大雅交流道)",
+        "from": "台中交流道",
+        "to": "大雅交流道",
+        "speed": 79.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0084",
+        "section": "國道1號(南屯交流道到台中交流道)",
+        "from": "南屯交流道",
+        "to": "台中交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0086",
+        "section": "國道1號(王田交流道到南屯交流道)",
+        "from": "王田交流道",
+        "to": "南屯交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0088",
+        "section": "國道1號(彰化系統交流道到王田交流道)",
+        "from": "彰化系統交流道",
+        "to": "王田交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0090",
+        "section": "國道1號(彰化交流道到彰化系統交流道)",
+        "from": "彰化交流道",
+        "to": "彰化系統交流道",
+        "speed": 71.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0092",
+        "section": "國道1號(埔鹽系統交流道到彰化交流道)",
+        "from": "埔鹽系統交流道",
+        "to": "彰化交流道",
+        "speed": 75.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0094",
+        "section": "國道1號(員林交流道到埔鹽系統交流道)",
+        "from": "員林交流道",
+        "to": "埔鹽系統交流道",
+        "speed": 91.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0096",
+        "section": "國道1號(北斗交流道到員林交流道)",
+        "from": "北斗交流道",
+        "to": "員林交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0100",
+        "section": "國道1號(西螺服務區到北斗交流道)",
+        "from": "西螺服務區",
+        "to": "北斗交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0102",
+        "section": "國道1號(西螺交流道到西螺服務區)",
+        "from": "西螺交流道",
+        "to": "西螺服務區",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0104",
+        "section": "國道1號(虎尾交流道到西螺交流道)",
+        "from": "虎尾交流道",
+        "to": "西螺交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0424",
+        "section": "國道1號(斗南交流道到虎尾交流道)",
+        "from": "斗南交流道",
+        "to": "虎尾交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0106",
+        "section": "國道1號(雲林系統交流道到斗南交流道)",
+        "from": "雲林系統交流道",
+        "to": "斗南交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0108",
+        "section": "國道1號(大林交流道到雲林系統交流道)",
+        "from": "大林交流道",
+        "to": "雲林系統交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0112",
+        "section": "國道1號(民雄交流道到大林交流道)",
+        "from": "民雄交流道",
+        "to": "大林交流道",
+        "speed": 104.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0422",
+        "section": "國道1號(嘉義交流道到民雄交流道)",
+        "from": "嘉義交流道",
+        "to": "民雄交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0114",
+        "section": "國道1號(水上交流道到嘉義交流道)",
+        "from": "水上交流道",
+        "to": "嘉義交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0116",
+        "section": "國道1號(嘉義系統交流道到水上交流道)",
+        "from": "嘉義系統交流道",
+        "to": "水上交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0118",
+        "section": "國道1號(新營服務區到嘉義系統交流道)",
+        "from": "新營服務區",
+        "to": "嘉義系統交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0122",
+        "section": "國道1號(新營交流道到新營服務區)",
+        "from": "新營交流道",
+        "to": "新營服務區",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0124",
+        "section": "國道1號(下營系統交流道到新營交流道)",
+        "from": "下營系統交流道",
+        "to": "新營交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0416",
+        "section": "國道1號(麻豆交流道到下營系統交流道)",
+        "from": "麻豆交流道",
+        "to": "下營系統交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0126",
+        "section": "國道1號(安定交流道到麻豆交流道)",
+        "from": "安定交流道",
+        "to": "麻豆交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0128",
+        "section": "國道1號(台南系統交流道到安定交流道)",
+        "from": "台南系統交流道",
+        "to": "安定交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0132",
+        "section": "國道1號(永康交流道到台南系統交流道)",
+        "from": "永康交流道",
+        "to": "台南系統交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0134",
+        "section": "國道1號(大灣交流道到永康交流道)",
+        "from": "大灣交流道",
+        "to": "永康交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0468",
+        "section": "國道1號(仁德交流道到大灣交流道)",
+        "from": "仁德交流道",
+        "to": "大灣交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0136",
+        "section": "國道1號(仁德系統交流道到仁德交流道)",
+        "from": "仁德系統交流道",
+        "to": "仁德交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0138",
+        "section": "國道1號(仁德服務區到仁德系統交流道)",
+        "from": "仁德服務區",
+        "to": "仁德系統交流道",
+        "speed": 250.0,
+        "congestionDegree": "5",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0140",
+        "section": "國道1號(路竹交流道到仁德服務區)",
+        "from": "路竹交流道",
+        "to": "仁德服務區",
+        "speed": 111.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0142",
+        "section": "國道1號(高科交流道到路竹交流道)",
+        "from": "高科交流道",
+        "to": "路竹交流道",
+        "speed": 91.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0414",
+        "section": "國道1號(岡山交流道到高科交流道)",
+        "from": "岡山交流道",
+        "to": "高科交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0146",
+        "section": "國道1號(楠梓交流道到岡山交流道)",
+        "from": "楠梓交流道",
+        "to": "岡山交流道",
+        "speed": 63.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0148",
+        "section": "國道1號(鼎金系統交流道到楠梓交流道)",
+        "from": "鼎金系統交流道",
+        "to": "楠梓交流道",
+        "speed": 83.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0150",
+        "section": "國道1號(高雄交流道到鼎金系統交流道)",
+        "from": "高雄交流道",
+        "to": "鼎金系統交流道",
+        "speed": 83.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0152",
+        "section": "國道1號(瑞隆路交流道到高雄交流道)",
+        "from": "瑞隆路交流道",
+        "to": "高雄交流道",
+        "speed": 82.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0154",
+        "section": "國道1號(五甲系統交流道到瑞隆路交流道)",
+        "from": "五甲系統交流道",
+        "to": "瑞隆路交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0156",
+        "section": "國道1號(五甲交流道到五甲系統交流道)",
+        "from": "五甲交流道",
+        "to": "五甲系統交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0158",
+        "section": "國道1號(中山四路交流道到五甲交流道)",
+        "from": "中山四路交流道",
+        "to": "五甲交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0456",
+        "section": "國道1號(漁港路交流道到中山四路交流道)",
+        "from": "漁港路交流道",
+        "to": "中山四路交流道",
+        "speed": 75.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0458",
+        "section": "國道1號(高雄端到漁港路交流道)",
+        "from": "高雄端",
+        "to": "漁港路交流道",
+        "speed": 43.0,
+        "congestionDegree": "3",
+        "direction": "北上"
+      }
+    ],
+    "汐五高架": [
+      {
+        "sectionId": "0159",
+        "section": "汐五高架(汐止端到堤頂交流道)",
+        "from": "汐止端",
+        "to": "堤頂交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0161",
+        "section": "汐五高架(堤頂交流道到下塔悠交流道)",
+        "from": "堤頂交流道",
+        "to": "下塔悠交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0163",
+        "section": "汐五高架(下塔悠交流道到環北交流道)",
+        "from": "下塔悠交流道",
+        "to": "環北交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0165",
+        "section": "汐五高架(環北交流道到五股轉接道交流道)",
+        "from": "環北交流道",
+        "to": "五股轉接道交流道",
+        "speed": 91.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0433",
+        "section": "汐五高架(五股轉接道交流道到泰山轉接道交流道)",
+        "from": "五股轉接道交流道",
+        "to": "泰山轉接道交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0435",
+        "section": "汐五高架(泰山轉接道交流道到機場系統交流道)",
+        "from": "泰山轉接道交流道",
+        "to": "機場系統交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0437",
+        "section": "汐五高架(機場系統交流道到中壢轉接一交流道)",
+        "from": "機場系統交流道",
+        "to": "中壢轉接一交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0439",
+        "section": "汐五高架(中壢轉接一交流道到中壢轉接二交流道)",
+        "from": "中壢轉接一交流道",
+        "to": "中壢轉接二交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0471",
+        "section": "汐五高架(中壢轉接二交流道到校前路交流道)",
+        "from": "中壢轉接二交流道",
+        "to": "校前路交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0441",
+        "section": "汐五高架(校前路交流道到楊梅端)",
+        "from": "校前路交流道",
+        "to": "楊梅端",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0489",
+        "section": "汐五高架(楊梅端到楊梅休息站)",
+        "from": "楊梅端",
+        "to": "楊梅休息站",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0160",
+        "section": "汐五高架(堤頂交流道到汐止端)",
+        "from": "堤頂交流道",
+        "to": "汐止端",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0162",
+        "section": "汐五高架(下塔悠交流道到堤頂交流道)",
+        "from": "下塔悠交流道",
+        "to": "堤頂交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0164",
+        "section": "汐五高架(環北交流道到下塔悠交流道)",
+        "from": "環北交流道",
+        "to": "下塔悠交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0166",
+        "section": "汐五高架(五股轉接道交流道到環北交流道)",
+        "from": "五股轉接道交流道",
+        "to": "環北交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0434",
+        "section": "汐五高架(泰山轉接道交流道到五股轉接道交流道)",
+        "from": "泰山轉接道交流道",
+        "to": "五股轉接道交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0436",
+        "section": "汐五高架(機場系統交流道到泰山轉接道交流道)",
+        "from": "機場系統交流道",
+        "to": "泰山轉接道交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0438",
+        "section": "汐五高架(中壢轉接一交流道到機場系統交流道)",
+        "from": "中壢轉接一交流道",
+        "to": "機場系統交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0440",
+        "section": "汐五高架(中壢轉接二交流道到中壢轉接一交流道)",
+        "from": "中壢轉接二交流道",
+        "to": "中壢轉接一交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0472",
+        "section": "汐五高架(校前路交流道到中壢轉接二交流道)",
+        "from": "校前路交流道",
+        "to": "中壢轉接二交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0442",
+        "section": "汐五高架(楊梅端到校前路交流道)",
+        "from": "楊梅端",
+        "to": "校前路交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      }
+    ],
+    "國道2號": [
+      {
+        "sectionId": "0167",
+        "section": "國道2號(桃園機場交流道到大園交流道)",
+        "from": "桃園機場交流道",
+        "to": "大園交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "往鶯歌系統"
+      },
+      {
+        "sectionId": "0169",
+        "section": "國道2號(大園交流道到大竹交流道)",
+        "from": "大園交流道",
+        "to": "大竹交流道",
+        "speed": 86.0,
+        "congestionDegree": "1",
+        "direction": "往鶯歌系統"
+      },
+      {
+        "sectionId": "0171",
+        "section": "國道2號(大竹交流道到機場系統交流道)",
+        "from": "大竹交流道",
+        "to": "機場系統交流道",
+        "speed": 77.0,
+        "congestionDegree": "2",
+        "direction": "往鶯歌系統"
+      },
+      {
+        "sectionId": "0173",
+        "section": "國道2號(機場系統交流道到南桃園交流道)",
+        "from": "機場系統交流道",
+        "to": "南桃園交流道",
+        "speed": 72.0,
+        "congestionDegree": "2",
+        "direction": "往鶯歌系統"
+      },
+      {
+        "sectionId": "0175",
+        "section": "國道2號(南桃園交流道到大湳交流道)",
+        "from": "南桃園交流道",
+        "to": "大湳交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "往鶯歌系統"
+      },
+      {
+        "sectionId": "0177",
+        "section": "國道2號(大湳交流道到鶯歌系統交流道)",
+        "from": "大湳交流道",
+        "to": "鶯歌系統交流道",
+        "speed": 86.0,
+        "congestionDegree": "1",
+        "direction": "往鶯歌系統"
+      },
+      {
+        "sectionId": "0168",
+        "section": "國道2號(大園交流道到桃園機場交流道)",
+        "from": "大園交流道",
+        "to": "桃園機場交流道",
+        "speed": 83.0,
+        "congestionDegree": "1",
+        "direction": "往桃園機場"
+      },
+      {
+        "sectionId": "0170",
+        "section": "國道2號(大竹交流道到大園交流道)",
+        "from": "大竹交流道",
+        "to": "大園交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往桃園機場"
+      },
+      {
+        "sectionId": "0172",
+        "section": "國道2號(機場系統交流道到大竹交流道)",
+        "from": "機場系統交流道",
+        "to": "大竹交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "往桃園機場"
+      },
+      {
+        "sectionId": "0174",
+        "section": "國道2號(南桃園交流道到機場系統交流道)",
+        "from": "南桃園交流道",
+        "to": "機場系統交流道",
+        "speed": 86.0,
+        "congestionDegree": "1",
+        "direction": "往桃園機場"
+      },
+      {
+        "sectionId": "0176",
+        "section": "國道2號(大湳交流道到南桃園交流道)",
+        "from": "大湳交流道",
+        "to": "南桃園交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往桃園機場"
+      },
+      {
+        "sectionId": "0178",
+        "section": "國道2號(鶯歌系統交流道到大湳交流道)",
+        "from": "鶯歌系統交流道",
+        "to": "大湳交流道",
+        "speed": 82.0,
+        "congestionDegree": "1",
+        "direction": "往桃園機場"
+      }
+    ],
+    "國2甲": [
+      {
+        "sectionId": "0491",
+        "section": "國2甲(圳頭交流道到大園交流道)",
+        "from": "圳頭交流道",
+        "to": "大園交流道",
+        "speed": 79.0,
+        "congestionDegree": "2",
+        "direction": ""
+      },
+      {
+        "sectionId": "0492",
+        "section": "國2甲(大園交流道到圳頭交流道)",
+        "from": "大園交流道",
+        "to": "圳頭交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": ""
+      }
+    ],
+    "國道3號": [
+      {
+        "sectionId": "0179",
+        "section": "國道3號(基金交流道到瑪東系統交流道)",
+        "from": "基金交流道",
+        "to": "瑪東系統交流道",
+        "speed": 68.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0181",
+        "section": "國道3號(瑪東系統交流道到汐止系統交流道)",
+        "from": "瑪東系統交流道",
+        "to": "汐止系統交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0185",
+        "section": "國道3號(汐止系統交流道到新台五路交流道)",
+        "from": "汐止系統交流道",
+        "to": "新台五路交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0187",
+        "section": "國道3號(新台五路交流道到南港交流道)",
+        "from": "新台五路交流道",
+        "to": "南港交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0189",
+        "section": "國道3號(南港交流道到南港系統交流道)",
+        "from": "南港交流道",
+        "to": "南港系統交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0191",
+        "section": "國道3號(南港系統交流道到南深路交流道)",
+        "from": "南港系統交流道",
+        "to": "南深路交流道",
+        "speed": 78.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0193",
+        "section": "國道3號(南深路交流道到木柵交流道)",
+        "from": "南深路交流道",
+        "to": "木柵交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0195",
+        "section": "國道3號(木柵交流道到木柵休息站)",
+        "from": "木柵交流道",
+        "to": "木柵休息站",
+        "speed": 77.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0197",
+        "section": "國道3號(木柵休息站到新店交流道)",
+        "from": "木柵休息站",
+        "to": "新店交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0199",
+        "section": "國道3號(新店交流道到安坑交流道)",
+        "from": "新店交流道",
+        "to": "安坑交流道",
+        "speed": 83.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0201",
+        "section": "國道3號(安坑交流道到中和交流道)",
+        "from": "安坑交流道",
+        "to": "中和交流道",
+        "speed": 70.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0203",
+        "section": "國道3號(中和交流道到土城交流道)",
+        "from": "中和交流道",
+        "to": "土城交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0205",
+        "section": "國道3號(土城交流道到樹林交流道)",
+        "from": "土城交流道",
+        "to": "樹林交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0469",
+        "section": "國道3號(樹林交流道到三鶯交流道)",
+        "from": "樹林交流道",
+        "to": "三鶯交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0209",
+        "section": "國道3號(三鶯交流道到鶯歌系統交流道)",
+        "from": "三鶯交流道",
+        "to": "鶯歌系統交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0211",
+        "section": "國道3號(鶯歌系統交流道到大溪交流道)",
+        "from": "鶯歌系統交流道",
+        "to": "大溪交流道",
+        "speed": 91.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0213",
+        "section": "國道3號(大溪交流道到龍潭交流道)",
+        "from": "大溪交流道",
+        "to": "龍潭交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0215",
+        "section": "國道3號(龍潭交流道到高原交流道)",
+        "from": "龍潭交流道",
+        "to": "高原交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0217",
+        "section": "國道3號(高原交流道到關西服務區)",
+        "from": "高原交流道",
+        "to": "關西服務區",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0219",
+        "section": "國道3號(關西服務區到關西交流道)",
+        "from": "關西服務區",
+        "to": "關西交流道",
+        "speed": 104.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0221",
+        "section": "國道3號(關西交流道到竹林交流道)",
+        "from": "關西交流道",
+        "to": "竹林交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0223",
+        "section": "國道3號(竹林交流道到寶山休息站)",
+        "from": "竹林交流道",
+        "to": "寶山休息站",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0225",
+        "section": "國道3號(寶山休息站到寶山交流道)",
+        "from": "寶山休息站",
+        "to": "寶山交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0227",
+        "section": "國道3號(寶山交流道到新竹系統交流道)",
+        "from": "寶山交流道",
+        "to": "新竹系統交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0229",
+        "section": "國道3號(新竹系統交流道到茄苳交流道)",
+        "from": "新竹系統交流道",
+        "to": "茄苳交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0231",
+        "section": "國道3號(茄苳交流道到香山交流道)",
+        "from": "茄苳交流道",
+        "to": "香山交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0233",
+        "section": "國道3號(香山交流道到西濱交流道)",
+        "from": "香山交流道",
+        "to": "西濱交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0235",
+        "section": "國道3號(西濱交流道到竹南交流道)",
+        "from": "西濱交流道",
+        "to": "竹南交流道",
+        "speed": 106.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0237",
+        "section": "國道3號(竹南交流道到大山交流道)",
+        "from": "竹南交流道",
+        "to": "大山交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0241",
+        "section": "國道3號(大山交流道到後龍交流道)",
+        "from": "大山交流道",
+        "to": "後龍交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0243",
+        "section": "國道3號(後龍交流道到西湖服務區)",
+        "from": "後龍交流道",
+        "to": "西湖服務區",
+        "speed": 106.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0245",
+        "section": "國道3號(西湖服務區到通霄交流道)",
+        "from": "西湖服務區",
+        "to": "通霄交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0247",
+        "section": "國道3號(通霄交流道到苑裡交流道)",
+        "from": "通霄交流道",
+        "to": "苑裡交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0249",
+        "section": "國道3號(苑裡交流道到大甲交流道)",
+        "from": "苑裡交流道",
+        "to": "大甲交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0253",
+        "section": "國道3號(大甲交流道到中港系統交流道)",
+        "from": "大甲交流道",
+        "to": "中港系統交流道",
+        "speed": 78.0,
+        "congestionDegree": "2",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0255",
+        "section": "國道3號(中港系統交流道到清水服務區)",
+        "from": "中港系統交流道",
+        "to": "清水服務區",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0257",
+        "section": "國道3號(清水服務區到沙鹿交流道)",
+        "from": "清水服務區",
+        "to": "沙鹿交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0259",
+        "section": "國道3號(沙鹿交流道到龍井交流道)",
+        "from": "沙鹿交流道",
+        "to": "龍井交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0261",
+        "section": "國道3號(龍井交流道到和美交流道)",
+        "from": "龍井交流道",
+        "to": "和美交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0263",
+        "section": "國道3號(和美交流道到彰化系統交流道)",
+        "from": "和美交流道",
+        "to": "彰化系統交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0265",
+        "section": "國道3號(彰化系統交流道到快官交流道)",
+        "from": "彰化系統交流道",
+        "to": "快官交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0267",
+        "section": "國道3號(快官交流道到烏日交流道)",
+        "from": "快官交流道",
+        "to": "烏日交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0269",
+        "section": "國道3號(烏日交流道到中投交流道)",
+        "from": "烏日交流道",
+        "to": "中投交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0271",
+        "section": "國道3號(中投交流道到霧峰交流道)",
+        "from": "中投交流道",
+        "to": "霧峰交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0273",
+        "section": "國道3號(霧峰交流道到霧峰系統交流道)",
+        "from": "霧峰交流道",
+        "to": "霧峰系統交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0411",
+        "section": "國道3號(霧峰系統交流道到草屯交流道)",
+        "from": "霧峰系統交流道",
+        "to": "草屯交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0275",
+        "section": "國道3號(草屯交流道到中興系統交流道)",
+        "from": "草屯交流道",
+        "to": "中興系統交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0277",
+        "section": "國道3號(中興系統交流道到中興交流道)",
+        "from": "中興系統交流道",
+        "to": "中興交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0279",
+        "section": "國道3號(中興交流道到南投交流道)",
+        "from": "中興交流道",
+        "to": "南投交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0451",
+        "section": "國道3號(南投交流道到南投服務區)",
+        "from": "南投交流道",
+        "to": "南投服務區",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0281",
+        "section": "國道3號(南投服務區到名間交流道)",
+        "from": "南投服務區",
+        "to": "名間交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0285",
+        "section": "國道3號(名間交流道到竹山交流道)",
+        "from": "名間交流道",
+        "to": "竹山交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0287",
+        "section": "國道3號(竹山交流道到南雲交流道)",
+        "from": "竹山交流道",
+        "to": "南雲交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0461",
+        "section": "國道3號(南雲交流道到斗六交流道)",
+        "from": "南雲交流道",
+        "to": "斗六交流道",
+        "speed": 104.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0289",
+        "section": "國道3號(斗六交流道到古坑(北)交流道)",
+        "from": "斗六交流道",
+        "to": "古坑",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0291",
+        "section": "國道3號(古坑系統交流道到古坑(南)交流道)",
+        "from": "古坑系統交流道",
+        "to": "古坑",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0295",
+        "section": "國道3號(古坑服務區到梅山交流道)",
+        "from": "古坑服務區",
+        "to": "梅山交流道",
+        "speed": 104.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0297",
+        "section": "國道3號(梅山交流道到竹崎交流道)",
+        "from": "梅山交流道",
+        "to": "竹崎交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0299",
+        "section": "國道3號(竹崎交流道到中埔交流道)",
+        "from": "竹崎交流道",
+        "to": "中埔交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0301",
+        "section": "國道3號(中埔交流道到水上系統交流道)",
+        "from": "中埔交流道",
+        "to": "水上系統交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0303",
+        "section": "國道3號(水上系統交流道到白河交流道)",
+        "from": "水上系統交流道",
+        "to": "白河交流道",
+        "speed": 104.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0305",
+        "section": "國道3號(白河交流道到東山服務區)",
+        "from": "白河交流道",
+        "to": "東山服務區",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0309",
+        "section": "國道3號(東山服務區到柳營交流道)",
+        "from": "東山服務區",
+        "to": "柳營交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0449",
+        "section": "國道3號(柳營交流道到烏山頭交流道)",
+        "from": "柳營交流道",
+        "to": "烏山頭交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0311",
+        "section": "國道3號(烏山頭交流道到官田系統交流道)",
+        "from": "烏山頭交流道",
+        "to": "官田系統交流道",
+        "speed": 104.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0313",
+        "section": "國道3號(官田系統交流道到善化交流道)",
+        "from": "官田系統交流道",
+        "to": "善化交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0315",
+        "section": "國道3號(善化交流道到新化系統交流道)",
+        "from": "善化交流道",
+        "to": "新化系統交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0319",
+        "section": "國道3號(新化系統交流道到新化休息站)",
+        "from": "新化系統交流道",
+        "to": "新化休息站",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0321",
+        "section": "國道3號(新化休息站到關廟交流道)",
+        "from": "新化休息站",
+        "to": "關廟交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0323",
+        "section": "國道3號(關廟交流道到關廟服務區)",
+        "from": "關廟交流道",
+        "to": "關廟服務區",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0325",
+        "section": "國道3號(關廟服務區到田寮交流道)",
+        "from": "關廟服務區",
+        "to": "田寮交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0327",
+        "section": "國道3號(田寮交流道到燕巢系統交流道)",
+        "from": "田寮交流道",
+        "to": "燕巢系統交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0331",
+        "section": "國道3號(燕巢系統交流道到九如交流道)",
+        "from": "燕巢系統交流道",
+        "to": "九如交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0333",
+        "section": "國道3號(九如交流道到屏東交流道)",
+        "from": "九如交流道",
+        "to": "屏東交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0473",
+        "section": "國道3號(屏東交流道到長治交流道)",
+        "from": "屏東交流道",
+        "to": "長治交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0335",
+        "section": "國道3號(長治交流道到麟洛交流道)",
+        "from": "長治交流道",
+        "to": "麟洛交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0337",
+        "section": "國道3號(麟洛交流道到竹田系統交流道)",
+        "from": "麟洛交流道",
+        "to": "竹田系統交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0341",
+        "section": "國道3號(竹田系統交流道到崁頂交流道)",
+        "from": "竹田系統交流道",
+        "to": "崁頂交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0343",
+        "section": "國道3號(崁頂交流道到南州交流道)",
+        "from": "崁頂交流道",
+        "to": "南州交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0345",
+        "section": "國道3號(南州交流道到林邊交流道)",
+        "from": "南州交流道",
+        "to": "林邊交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0347",
+        "section": "國道3號(林邊交流道到大鵬灣端)",
+        "from": "林邊交流道",
+        "to": "大鵬灣端",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "南下"
+      },
+      {
+        "sectionId": "0180",
+        "section": "國道3號(瑪東系統交流道到基金交流道)",
+        "from": "瑪東系統交流道",
+        "to": "基金交流道",
+        "speed": 79.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0182",
+        "section": "國道3號(汐止系統交流道到瑪東系統交流道)",
+        "from": "汐止系統交流道",
+        "to": "瑪東系統交流道",
+        "speed": 82.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0186",
+        "section": "國道3號(新台五路交流道到汐止系統交流道)",
+        "from": "新台五路交流道",
+        "to": "汐止系統交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0188",
+        "section": "國道3號(南港交流道到新台五路交流道)",
+        "from": "南港交流道",
+        "to": "新台五路交流道",
+        "speed": 86.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0190",
+        "section": "國道3號(南港系統交流道到南港交流道)",
+        "from": "南港系統交流道",
+        "to": "南港交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0192",
+        "section": "國道3號(南深路交流道到南港系統交流道)",
+        "from": "南深路交流道",
+        "to": "南港系統交流道",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0194",
+        "section": "國道3號(木柵交流道到南深路交流道)",
+        "from": "木柵交流道",
+        "to": "南深路交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0196",
+        "section": "國道3號(木柵休息站到木柵交流道)",
+        "from": "木柵休息站",
+        "to": "木柵交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0198",
+        "section": "國道3號(新店交流道到木柵休息站)",
+        "from": "新店交流道",
+        "to": "木柵休息站",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0200",
+        "section": "國道3號(安坑交流道到新店交流道)",
+        "from": "安坑交流道",
+        "to": "新店交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0202",
+        "section": "國道3號(中和交流道到安坑交流道)",
+        "from": "中和交流道",
+        "to": "安坑交流道",
+        "speed": 86.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0204",
+        "section": "國道3號(土城交流道到中和交流道)",
+        "from": "土城交流道",
+        "to": "中和交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0206",
+        "section": "國道3號(樹林交流道到土城交流道)",
+        "from": "樹林交流道",
+        "to": "土城交流道",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0470",
+        "section": "國道3號(三鶯交流道到樹林交流道)",
+        "from": "三鶯交流道",
+        "to": "樹林交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0210",
+        "section": "國道3號(鶯歌系統交流道到三鶯交流道)",
+        "from": "鶯歌系統交流道",
+        "to": "三鶯交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0212",
+        "section": "國道3號(大溪交流道到鶯歌系統交流道)",
+        "from": "大溪交流道",
+        "to": "鶯歌系統交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0214",
+        "section": "國道3號(龍潭交流道到大溪交流道)",
+        "from": "龍潭交流道",
+        "to": "大溪交流道",
+        "speed": 67.0,
+        "congestionDegree": "2",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0216",
+        "section": "國道3號(高原交流道到龍潭交流道)",
+        "from": "高原交流道",
+        "to": "龍潭交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0218",
+        "section": "國道3號(關西服務區到高原交流道)",
+        "from": "關西服務區",
+        "to": "高原交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0220",
+        "section": "國道3號(關西交流道到關西服務區)",
+        "from": "關西交流道",
+        "to": "關西服務區",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0222",
+        "section": "國道3號(竹林交流道到關西交流道)",
+        "from": "竹林交流道",
+        "to": "關西交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0224",
+        "section": "國道3號(寶山休息站到竹林交流道)",
+        "from": "寶山休息站",
+        "to": "竹林交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0226",
+        "section": "國道3號(寶山交流道到寶山休息站)",
+        "from": "寶山交流道",
+        "to": "寶山休息站",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0228",
+        "section": "國道3號(新竹系統交流道到寶山交流道)",
+        "from": "新竹系統交流道",
+        "to": "寶山交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0230",
+        "section": "國道3號(茄苳交流道到新竹系統交流道)",
+        "from": "茄苳交流道",
+        "to": "新竹系統交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0232",
+        "section": "國道3號(香山交流道到茄苳交流道)",
+        "from": "香山交流道",
+        "to": "茄苳交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0234",
+        "section": "國道3號(西濱交流道到香山交流道)",
+        "from": "西濱交流道",
+        "to": "香山交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0236",
+        "section": "國道3號(竹南交流道到西濱交流道)",
+        "from": "竹南交流道",
+        "to": "西濱交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0238",
+        "section": "國道3號(大山交流道到竹南交流道)",
+        "from": "大山交流道",
+        "to": "竹南交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0242",
+        "section": "國道3號(後龍交流道到大山交流道)",
+        "from": "後龍交流道",
+        "to": "大山交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0244",
+        "section": "國道3號(西湖服務區到後龍交流道)",
+        "from": "西湖服務區",
+        "to": "後龍交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0246",
+        "section": "國道3號(通霄交流道到西湖服務區)",
+        "from": "通霄交流道",
+        "to": "西湖服務區",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0248",
+        "section": "國道3號(苑裡交流道到通霄交流道)",
+        "from": "苑裡交流道",
+        "to": "通霄交流道",
+        "speed": 107.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0250",
+        "section": "國道3號(大甲交流道到苑裡交流道)",
+        "from": "大甲交流道",
+        "to": "苑裡交流道",
+        "speed": 104.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0254",
+        "section": "國道3號(中港系統交流道到大甲交流道)",
+        "from": "中港系統交流道",
+        "to": "大甲交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0256",
+        "section": "國道3號(清水服務區到中港系統交流道)",
+        "from": "清水服務區",
+        "to": "中港系統交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0258",
+        "section": "國道3號(沙鹿交流道到清水服務區)",
+        "from": "沙鹿交流道",
+        "to": "清水服務區",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0260",
+        "section": "國道3號(龍井交流道到沙鹿交流道)",
+        "from": "龍井交流道",
+        "to": "沙鹿交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0262",
+        "section": "國道3號(和美交流道到龍井交流道)",
+        "from": "和美交流道",
+        "to": "龍井交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0264",
+        "section": "國道3號(彰化系統交流道到和美交流道)",
+        "from": "彰化系統交流道",
+        "to": "和美交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0266",
+        "section": "國道3號(快官交流道到彰化系統交流道)",
+        "from": "快官交流道",
+        "to": "彰化系統交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0268",
+        "section": "國道3號(烏日交流道到快官交流道)",
+        "from": "烏日交流道",
+        "to": "快官交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0270",
+        "section": "國道3號(中投交流道到烏日交流道)",
+        "from": "中投交流道",
+        "to": "烏日交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0272",
+        "section": "國道3號(霧峰交流道到中投交流道)",
+        "from": "霧峰交流道",
+        "to": "中投交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0274",
+        "section": "國道3號(霧峰系統交流道到霧峰交流道)",
+        "from": "霧峰系統交流道",
+        "to": "霧峰交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0412",
+        "section": "國道3號(草屯交流道到霧峰系統交流道)",
+        "from": "草屯交流道",
+        "to": "霧峰系統交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0276",
+        "section": "國道3號(中興系統交流道到草屯交流道)",
+        "from": "中興系統交流道",
+        "to": "草屯交流道",
+        "speed": 104.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0278",
+        "section": "國道3號(中興交流道到中興系統交流道)",
+        "from": "中興交流道",
+        "to": "中興系統交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0280",
+        "section": "國道3號(南投交流道到中興交流道)",
+        "from": "南投交流道",
+        "to": "中興交流道",
+        "speed": 104.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0452",
+        "section": "國道3號(南投服務區到南投交流道)",
+        "from": "南投服務區",
+        "to": "南投交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0282",
+        "section": "國道3號(名間交流道到南投服務區)",
+        "from": "名間交流道",
+        "to": "南投服務區",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0286",
+        "section": "國道3號(竹山交流道到名間交流道)",
+        "from": "竹山交流道",
+        "to": "名間交流道",
+        "speed": 107.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0288",
+        "section": "國道3號(南雲交流道到竹山交流道)",
+        "from": "南雲交流道",
+        "to": "竹山交流道",
+        "speed": 106.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0462",
+        "section": "國道3號(斗六交流道到南雲交流道)",
+        "from": "斗六交流道",
+        "to": "南雲交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0464",
+        "section": "國道3號(古坑系統交流道到古坑(北)交流道)",
+        "from": "古坑系統交流道",
+        "to": "古坑",
+        "speed": 106.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0466",
+        "section": "國道3號(古坑服務區到古坑(南)交流道)",
+        "from": "古坑服務區",
+        "to": "古坑",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0296",
+        "section": "國道3號(梅山交流道到古坑服務區)",
+        "from": "梅山交流道",
+        "to": "古坑服務區",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0298",
+        "section": "國道3號(竹崎交流道到梅山交流道)",
+        "from": "竹崎交流道",
+        "to": "梅山交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0300",
+        "section": "國道3號(中埔交流道到竹崎交流道)",
+        "from": "中埔交流道",
+        "to": "竹崎交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0302",
+        "section": "國道3號(水上系統交流道到中埔交流道)",
+        "from": "水上系統交流道",
+        "to": "中埔交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0304",
+        "section": "國道3號(白河交流道到水上系統交流道)",
+        "from": "白河交流道",
+        "to": "水上系統交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0306",
+        "section": "國道3號(東山服務區到白河交流道)",
+        "from": "東山服務區",
+        "to": "白河交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0310",
+        "section": "國道3號(柳營交流道到東山服務區)",
+        "from": "柳營交流道",
+        "to": "東山服務區",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0450",
+        "section": "國道3號(烏山頭交流道到柳營交流道)",
+        "from": "烏山頭交流道",
+        "to": "柳營交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0312",
+        "section": "國道3號(官田系統交流道到烏山頭交流道)",
+        "from": "官田系統交流道",
+        "to": "烏山頭交流道",
+        "speed": 103.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0314",
+        "section": "國道3號(善化交流道到官田系統交流道)",
+        "from": "善化交流道",
+        "to": "官田系統交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0316",
+        "section": "國道3號(新化系統交流道到善化交流道)",
+        "from": "新化系統交流道",
+        "to": "善化交流道",
+        "speed": 91.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0320",
+        "section": "國道3號(新化休息站到新化系統交流道)",
+        "from": "新化休息站",
+        "to": "新化系統交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0322",
+        "section": "國道3號(關廟交流道到新化休息站)",
+        "from": "關廟交流道",
+        "to": "新化休息站",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0324",
+        "section": "國道3號(關廟服務區到關廟交流道)",
+        "from": "關廟服務區",
+        "to": "關廟交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0326",
+        "section": "國道3號(田寮交流道到關廟服務區)",
+        "from": "田寮交流道",
+        "to": "關廟服務區",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0328",
+        "section": "國道3號(燕巢系統交流道到田寮交流道)",
+        "from": "燕巢系統交流道",
+        "to": "田寮交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0332",
+        "section": "國道3號(九如交流道到燕巢系統交流道)",
+        "from": "九如交流道",
+        "to": "燕巢系統交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0334",
+        "section": "國道3號(屏東交流道到九如交流道)",
+        "from": "屏東交流道",
+        "to": "九如交流道",
+        "speed": 108.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0474",
+        "section": "國道3號(長治交流道到屏東交流道)",
+        "from": "長治交流道",
+        "to": "屏東交流道",
+        "speed": 106.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0336",
+        "section": "國道3號(麟洛交流道到長治交流道)",
+        "from": "麟洛交流道",
+        "to": "長治交流道",
+        "speed": 101.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0338",
+        "section": "國道3號(竹田系統交流道到麟洛交流道)",
+        "from": "竹田系統交流道",
+        "to": "麟洛交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0342",
+        "section": "國道3號(崁頂交流道到竹田系統交流道)",
+        "from": "崁頂交流道",
+        "to": "竹田系統交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0344",
+        "section": "國道3號(南州交流道到崁頂交流道)",
+        "from": "南州交流道",
+        "to": "崁頂交流道",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0346",
+        "section": "國道3號(林邊交流道到南州交流道)",
+        "from": "林邊交流道",
+        "to": "南州交流道",
+        "speed": 102.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      },
+      {
+        "sectionId": "0348",
+        "section": "國道3號(大鵬灣端到林邊交流道)",
+        "from": "大鵬灣端",
+        "to": "林邊交流道",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "北上"
+      }
+    ],
+    "國3甲": [
+      {
+        "sectionId": "0349",
+        "section": "國3甲(台北端到萬芳交流道)",
+        "from": "台北端",
+        "to": "萬芳交流道",
+        "speed": 73.0,
+        "congestionDegree": "2",
+        "direction": ""
+      },
+      {
+        "sectionId": "0351",
+        "section": "國3甲(萬芳交流道到木柵交流道)",
+        "from": "萬芳交流道",
+        "to": "木柵交流道",
+        "speed": 74.0,
+        "congestionDegree": "2",
+        "direction": ""
+      },
+      {
+        "sectionId": "0353",
+        "section": "國3甲(木柵交流道到深坑端)",
+        "from": "木柵交流道",
+        "to": "深坑端",
+        "speed": 61.0,
+        "congestionDegree": "2",
+        "direction": ""
+      },
+      {
+        "sectionId": "0350",
+        "section": "國3甲(萬芳交流道到台北端)",
+        "from": "萬芳交流道",
+        "to": "台北端",
+        "speed": 75.0,
+        "congestionDegree": "2",
+        "direction": ""
+      },
+      {
+        "sectionId": "0352",
+        "section": "國3甲(木柵交流道到萬芳交流道)",
+        "from": "木柵交流道",
+        "to": "萬芳交流道",
+        "speed": 74.0,
+        "congestionDegree": "2",
+        "direction": ""
+      },
+      {
+        "sectionId": "0354",
+        "section": "國3甲(深坑端到木柵交流道)",
+        "from": "深坑端",
+        "to": "木柵交流道",
+        "speed": 65.0,
+        "congestionDegree": "2",
+        "direction": ""
+      }
+    ],
+    "台2己": [
+      {
+        "sectionId": "1006",
+        "section": "台2己(基隆港交流道到德安路交流道)",
+        "from": "基隆港交流道",
+        "to": "德安路交流道",
+        "speed": 47.0,
+        "congestionDegree": "3",
+        "direction": ""
+      },
+      {
+        "sectionId": "1004",
+        "section": "台2己(德安路交流道到中和路交流道)",
+        "from": "德安路交流道",
+        "to": "中和路交流道",
+        "speed": 51.0,
+        "congestionDegree": "3",
+        "direction": ""
+      },
+      {
+        "sectionId": "1002",
+        "section": "台2己(中和路交流道到基金交流道)",
+        "from": "中和路交流道",
+        "to": "基金交流道",
+        "speed": 56.0,
+        "congestionDegree": "3",
+        "direction": ""
+      },
+      {
+        "sectionId": "1005",
+        "section": "台2己(德安路交流道到基隆港交流道)",
+        "from": "德安路交流道",
+        "to": "基隆港交流道",
+        "speed": 45.0,
+        "congestionDegree": "3",
+        "direction": ""
+      },
+      {
+        "sectionId": "1003",
+        "section": "台2己(中和路交流道到德安路交流道)",
+        "from": "中和路交流道",
+        "to": "德安路交流道",
+        "speed": 43.0,
+        "congestionDegree": "3",
+        "direction": ""
+      },
+      {
+        "sectionId": "1001",
+        "section": "台2己(基金交流道到中和路交流道)",
+        "from": "基金交流道",
+        "to": "中和路交流道",
+        "speed": 43.0,
+        "congestionDegree": "3",
+        "direction": ""
+      }
+    ],
+    "南港連絡道": [
+      {
+        "sectionId": "1007",
+        "section": "南港連絡道(環東交流道到南港交流道)",
+        "from": "環東交流道",
+        "to": "南港交流道",
+        "speed": 73.0,
+        "congestionDegree": "2",
+        "direction": ""
+      },
+      {
+        "sectionId": "1008",
+        "section": "南港連絡道(南港交流道到環東交流道)",
+        "from": "南港交流道",
+        "to": "環東交流道",
+        "speed": 80.0,
+        "congestionDegree": "1",
+        "direction": ""
+      }
+    ],
+    "國道4號": [
+      {
+        "sectionId": "0355",
+        "section": "國道4號(清水端到中港系統交流道)",
+        "from": "清水端",
+        "to": "中港系統交流道",
+        "speed": 77.0,
+        "congestionDegree": "2",
+        "direction": "往潭子系統"
+      },
+      {
+        "sectionId": "0357",
+        "section": "國道4號(中港系統交流道到神岡交流道)",
+        "from": "中港系統交流道",
+        "to": "神岡交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "往潭子系統"
+      },
+      {
+        "sectionId": "0359",
+        "section": "國道4號(神岡交流道到台中系統交流道)",
+        "from": "神岡交流道",
+        "to": "台中系統交流道",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "往潭子系統"
+      },
+      {
+        "sectionId": "0361",
+        "section": "國道4號(台中系統交流道到后豐交流道)",
+        "from": "台中系統交流道",
+        "to": "后豐交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "往潭子系統"
+      },
+      {
+        "sectionId": "0483",
+        "section": "國道4號(后豐交流道到豐勢交流道)",
+        "from": "后豐交流道",
+        "to": "豐勢交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "往潭子系統"
+      },
+      {
+        "sectionId": "0485",
+        "section": "國道4號(豐勢交流道到潭子交流道)",
+        "from": "豐勢交流道",
+        "to": "潭子交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往潭子系統"
+      },
+      {
+        "sectionId": "0487",
+        "section": "國道4號(潭子交流道到潭子系統交流道)",
+        "from": "潭子交流道",
+        "to": "潭子系統交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "往潭子系統"
+      },
+      {
+        "sectionId": "0356",
+        "section": "國道4號(中港系統交流道到清水端)",
+        "from": "中港系統交流道",
+        "to": "清水端",
+        "speed": 89.0,
+        "congestionDegree": "1",
+        "direction": "往清水"
+      },
+      {
+        "sectionId": "0358",
+        "section": "國道4號(神岡交流道到中港系統交流道)",
+        "from": "神岡交流道",
+        "to": "中港系統交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "往清水"
+      },
+      {
+        "sectionId": "0360",
+        "section": "國道4號(台中系統交流道到神岡交流道)",
+        "from": "台中系統交流道",
+        "to": "神岡交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "往清水"
+      },
+      {
+        "sectionId": "0362",
+        "section": "國道4號(后豐交流道到台中系統交流道)",
+        "from": "后豐交流道",
+        "to": "台中系統交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "往清水"
+      },
+      {
+        "sectionId": "0484",
+        "section": "國道4號(豐勢交流道到后豐交流道)",
+        "from": "豐勢交流道",
+        "to": "后豐交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "往清水"
+      },
+      {
+        "sectionId": "0486",
+        "section": "國道4號(潭子交流道到豐勢交流道)",
+        "from": "潭子交流道",
+        "to": "豐勢交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "往清水"
+      },
+      {
+        "sectionId": "0488",
+        "section": "國道4號(潭子系統交流道到潭子交流道)",
+        "from": "潭子系統交流道",
+        "to": "潭子交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "往清水"
+      }
+    ],
+    "國道5號": [
+      {
+        "sectionId": "0365",
+        "section": "國道5號(南港系統交流道到石碇交流道)",
+        "from": "南港系統交流道",
+        "to": "石碇交流道",
+        "speed": 77.0,
+        "congestionDegree": "2",
+        "direction": "往蘇澳"
+      },
+      {
+        "sectionId": "0367",
+        "section": "國道5號(石碇交流道到坪林交控交流道)",
+        "from": "石碇交流道",
+        "to": "坪林交控交流道",
+        "speed": 78.0,
+        "congestionDegree": "2",
+        "direction": "往蘇澳"
+      },
+      {
+        "sectionId": "0369",
+        "section": "國道5號(坪林交控交流道到頭城交流道)",
+        "from": "坪林交控交流道",
+        "to": "頭城交流道",
+        "speed": 82.0,
+        "congestionDegree": "1",
+        "direction": "往蘇澳"
+      },
+      {
+        "sectionId": "0373",
+        "section": "國道5號(頭城交流道到宜蘭交流道)",
+        "from": "頭城交流道",
+        "to": "宜蘭交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "往蘇澳"
+      },
+      {
+        "sectionId": "0375",
+        "section": "國道5號(宜蘭交流道到羅東交流道)",
+        "from": "宜蘭交流道",
+        "to": "羅東交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "往蘇澳"
+      },
+      {
+        "sectionId": "0377",
+        "section": "國道5號(羅東交流道到蘇澳交流道)",
+        "from": "羅東交流道",
+        "to": "蘇澳交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "往蘇澳"
+      },
+      {
+        "sectionId": "0366",
+        "section": "國道5號(石碇交流道到南港系統交流道)",
+        "from": "石碇交流道",
+        "to": "南港系統交流道",
+        "speed": 71.0,
+        "congestionDegree": "2",
+        "direction": "往南港"
+      },
+      {
+        "sectionId": "0368",
+        "section": "國道5號(坪林交控交流道到石碇交流道)",
+        "from": "坪林交控交流道",
+        "to": "石碇交流道",
+        "speed": 77.0,
+        "congestionDegree": "2",
+        "direction": "往南港"
+      },
+      {
+        "sectionId": "0370",
+        "section": "國道5號(頭城交流道到坪林交控交流道)",
+        "from": "頭城交流道",
+        "to": "坪林交控交流道",
+        "speed": 65.0,
+        "congestionDegree": "2",
+        "direction": "往南港"
+      },
+      {
+        "sectionId": "0374",
+        "section": "國道5號(宜蘭交流道到頭城交流道)",
+        "from": "宜蘭交流道",
+        "to": "頭城交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往南港"
+      },
+      {
+        "sectionId": "0376",
+        "section": "國道5號(羅東交流道到宜蘭交流道)",
+        "from": "羅東交流道",
+        "to": "宜蘭交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往南港"
+      },
+      {
+        "sectionId": "0378",
+        "section": "國道5號(蘇澳交流道到羅東交流道)",
+        "from": "蘇澳交流道",
+        "to": "羅東交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往南港"
+      }
+    ],
+    "國道6號": [
+      {
+        "sectionId": "0379",
+        "section": "國道6號(霧峰系統交流道到舊正交流道)",
+        "from": "霧峰系統交流道",
+        "to": "舊正交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "往埔里"
+      },
+      {
+        "sectionId": "0417",
+        "section": "國道6號(舊正交流道到東草屯交流道)",
+        "from": "舊正交流道",
+        "to": "東草屯交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "往埔里"
+      },
+      {
+        "sectionId": "0381",
+        "section": "國道6號(東草屯交流道到東草屯休息站)",
+        "from": "東草屯交流道",
+        "to": "東草屯休息站",
+        "speed": 99.0,
+        "congestionDegree": "1",
+        "direction": "往埔里"
+      },
+      {
+        "sectionId": "0495",
+        "section": "國道6號(東草屯休息站到國姓交流道)",
+        "from": "東草屯休息站",
+        "to": "國姓交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "往埔里"
+      },
+      {
+        "sectionId": "0383",
+        "section": "國道6號(國姓交流道到北山交流道)",
+        "from": "國姓交流道",
+        "to": "北山交流道",
+        "speed": 100.0,
+        "congestionDegree": "1",
+        "direction": "往埔里"
+      },
+      {
+        "sectionId": "0447",
+        "section": "國道6號(北山交流道到愛蘭交流道)",
+        "from": "北山交流道",
+        "to": "愛蘭交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "往埔里"
+      },
+      {
+        "sectionId": "0385",
+        "section": "國道6號(愛蘭交流道到埔里交流道)",
+        "from": "愛蘭交流道",
+        "to": "埔里交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "往埔里"
+      },
+      {
+        "sectionId": "0387",
+        "section": "國道6號(埔里交流道到埔里端)",
+        "from": "埔里交流道",
+        "to": "埔里端",
+        "speed": 94.0,
+        "congestionDegree": "1",
+        "direction": "往埔里"
+      },
+      {
+        "sectionId": "0380",
+        "section": "國道6號(舊正交流道到霧峰系統交流道)",
+        "from": "舊正交流道",
+        "to": "霧峰系統交流道",
+        "speed": 92.0,
+        "congestionDegree": "1",
+        "direction": "往霧峰"
+      },
+      {
+        "sectionId": "0418",
+        "section": "國道6號(東草屯交流道到舊正交流道)",
+        "from": "東草屯交流道",
+        "to": "舊正交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "往霧峰"
+      },
+      {
+        "sectionId": "0382",
+        "section": "國道6號(東草屯休息站到東草屯交流道)",
+        "from": "東草屯休息站",
+        "to": "東草屯交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "往霧峰"
+      },
+      {
+        "sectionId": "0496",
+        "section": "國道6號(國姓交流道到東草屯休息站)",
+        "from": "國姓交流道",
+        "to": "東草屯休息站",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "往霧峰"
+      },
+      {
+        "sectionId": "0384",
+        "section": "國道6號(北山交流道到國姓交流道)",
+        "from": "北山交流道",
+        "to": "國姓交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "往霧峰"
+      },
+      {
+        "sectionId": "0448",
+        "section": "國道6號(愛蘭交流道到北山交流道)",
+        "from": "愛蘭交流道",
+        "to": "北山交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "往霧峰"
+      },
+      {
+        "sectionId": "0386",
+        "section": "國道6號(埔里交流道到愛蘭交流道)",
+        "from": "埔里交流道",
+        "to": "愛蘭交流道",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "往霧峰"
+      },
+      {
+        "sectionId": "0388",
+        "section": "國道6號(埔里端到埔里交流道)",
+        "from": "埔里端",
+        "to": "埔里交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "往霧峰"
+      }
+    ],
+    "國道8號": [
+      {
+        "sectionId": "0389",
+        "section": "國道8號(台南端到新吉交流道)",
+        "from": "台南端",
+        "to": "新吉交流道",
+        "speed": 73.0,
+        "congestionDegree": "2",
+        "direction": "往新化"
+      },
+      {
+        "sectionId": "0391",
+        "section": "國道8號(新吉交流道到台南系統交流道)",
+        "from": "新吉交流道",
+        "to": "台南系統交流道",
+        "speed": 76.0,
+        "congestionDegree": "2",
+        "direction": "往新化"
+      },
+      {
+        "sectionId": "0393",
+        "section": "國道8號(台南系統交流道到新市交流道)",
+        "from": "台南系統交流道",
+        "to": "新市交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往新化"
+      },
+      {
+        "sectionId": "0395",
+        "section": "國道8號(新市交流道到新化系統交流道)",
+        "from": "新市交流道",
+        "to": "新化系統交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "往新化"
+      },
+      {
+        "sectionId": "0397",
+        "section": "國道8號(新化系統交流道到新化端)",
+        "from": "新化系統交流道",
+        "to": "新化端",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往新化"
+      },
+      {
+        "sectionId": "0390",
+        "section": "國道8號(新吉交流道到台南端)",
+        "from": "新吉交流道",
+        "to": "台南端",
+        "speed": 71.0,
+        "congestionDegree": "2",
+        "direction": "往台南"
+      },
+      {
+        "sectionId": "0392",
+        "section": "國道8號(台南系統交流道到新吉交流道)",
+        "from": "台南系統交流道",
+        "to": "新吉交流道",
+        "speed": 78.0,
+        "congestionDegree": "2",
+        "direction": "往台南"
+      },
+      {
+        "sectionId": "0394",
+        "section": "國道8號(新市交流道到台南系統交流道)",
+        "from": "新市交流道",
+        "to": "台南系統交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "往台南"
+      },
+      {
+        "sectionId": "0396",
+        "section": "國道8號(新化系統交流道到新市交流道)",
+        "from": "新化系統交流道",
+        "to": "新市交流道",
+        "speed": 91.0,
+        "congestionDegree": "1",
+        "direction": "往台南"
+      },
+      {
+        "sectionId": "0398",
+        "section": "國道8號(新化端到新化系統交流道)",
+        "from": "新化端",
+        "to": "新化系統交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "往台南"
+      }
+    ],
+    "國道10號": [
+      {
+        "sectionId": "0399",
+        "section": "國道10號(左營端到鼎金系統交流道)",
+        "from": "左營端",
+        "to": "鼎金系統交流道",
+        "speed": 64.0,
+        "congestionDegree": "2",
+        "direction": "往旗山"
+      },
+      {
+        "sectionId": "0401",
+        "section": "國道10號(鼎金系統交流道到仁武交流道)",
+        "from": "鼎金系統交流道",
+        "to": "仁武交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "往旗山"
+      },
+      {
+        "sectionId": "0403",
+        "section": "國道10號(仁武交流道到燕巢交流道)",
+        "from": "仁武交流道",
+        "to": "燕巢交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "往旗山"
+      },
+      {
+        "sectionId": "0405",
+        "section": "國道10號(燕巢交流道到燕巢系統交流道)",
+        "from": "燕巢交流道",
+        "to": "燕巢系統交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "往旗山"
+      },
+      {
+        "sectionId": "0407",
+        "section": "國道10號(燕巢系統交流道到嶺口交流道)",
+        "from": "燕巢系統交流道",
+        "to": "嶺口交流道",
+        "speed": 80.0,
+        "congestionDegree": "1",
+        "direction": "往旗山"
+      },
+      {
+        "sectionId": "0409",
+        "section": "國道10號(嶺口交流道到里港交流道)",
+        "from": "嶺口交流道",
+        "to": "里港交流道",
+        "speed": 96.0,
+        "congestionDegree": "1",
+        "direction": "往旗山"
+      },
+      {
+        "sectionId": "0453",
+        "section": "國道10號(里港交流道到旗山端)",
+        "from": "里港交流道",
+        "to": "旗山端",
+        "speed": 95.0,
+        "congestionDegree": "1",
+        "direction": "往旗山"
+      },
+      {
+        "sectionId": "0400",
+        "section": "國道10號(鼎金系統交流道到左營端)",
+        "from": "鼎金系統交流道",
+        "to": "左營端",
+        "speed": 38.0,
+        "congestionDegree": "4",
+        "direction": "往左營"
+      },
+      {
+        "sectionId": "0402",
+        "section": "國道10號(仁武交流道到鼎金系統交流道)",
+        "from": "仁武交流道",
+        "to": "鼎金系統交流道",
+        "speed": 85.0,
+        "congestionDegree": "1",
+        "direction": "往左營"
+      },
+      {
+        "sectionId": "0404",
+        "section": "國道10號(燕巢交流道到仁武交流道)",
+        "from": "燕巢交流道",
+        "to": "仁武交流道",
+        "speed": 98.0,
+        "congestionDegree": "1",
+        "direction": "往左營"
+      },
+      {
+        "sectionId": "0406",
+        "section": "國道10號(燕巢系統交流道到燕巢交流道)",
+        "from": "燕巢系統交流道",
+        "to": "燕巢交流道",
+        "speed": 97.0,
+        "congestionDegree": "1",
+        "direction": "往左營"
+      },
+      {
+        "sectionId": "0408",
+        "section": "國道10號(嶺口交流道到燕巢系統交流道)",
+        "from": "嶺口交流道",
+        "to": "燕巢系統交流道",
+        "speed": 76.0,
+        "congestionDegree": "2",
+        "direction": "往左營"
+      },
+      {
+        "sectionId": "0410",
+        "section": "國道10號(里港交流道到嶺口交流道)",
+        "from": "里港交流道",
+        "to": "嶺口交流道",
+        "speed": 105.0,
+        "congestionDegree": "1",
+        "direction": "往左營"
+      },
+      {
+        "sectionId": "0454",
+        "section": "國道10號(旗山端到里港交流道)",
+        "from": "旗山端",
+        "to": "里港交流道",
+        "speed": 106.0,
+        "congestionDegree": "1",
+        "direction": "往左營"
+      }
+    ],
+    "快速公路76號": [
+      {
+        "sectionId": "2131",
+        "section": "快速公路76號(埔鹽交流道到埔鹽系統交流道)",
+        "from": "埔鹽交流道",
+        "to": "埔鹽系統交流道",
+        "speed": 71.0,
+        "congestionDegree": "2",
+        "direction": "往中興系統"
+      },
+      {
+        "sectionId": "2133",
+        "section": "快速公路76號(埔鹽系統交流道到埔心交流道)",
+        "from": "埔鹽系統交流道",
+        "to": "埔心交流道",
+        "speed": 64.0,
+        "congestionDegree": "2",
+        "direction": "往中興系統"
+      },
+      {
+        "sectionId": "2135",
+        "section": "快速公路76號(埔心交流道到員林交流道)",
+        "from": "埔心交流道",
+        "to": "員林交流道",
+        "speed": 78.0,
+        "congestionDegree": "2",
+        "direction": "往中興系統"
+      },
+      {
+        "sectionId": "2137",
+        "section": "快速公路76號(員林交流道到林厝交流道)",
+        "from": "員林交流道",
+        "to": "林厝交流道",
+        "speed": 73.0,
+        "congestionDegree": "2",
+        "direction": "往中興系統"
+      },
+      {
+        "sectionId": "2139",
+        "section": "快速公路76號(林厝交流道到中興系統交流道)",
+        "from": "林厝交流道",
+        "to": "中興系統交流道",
+        "speed": 66.0,
+        "congestionDegree": "2",
+        "direction": "往中興系統"
+      },
+      {
+        "sectionId": "2132",
+        "section": "快速公路76號(埔鹽系統交流道到埔鹽交流道)",
+        "from": "埔鹽系統交流道",
+        "to": "埔鹽交流道",
+        "speed": 67.0,
+        "congestionDegree": "2",
+        "direction": "往埔鹽系統"
+      },
+      {
+        "sectionId": "2134",
+        "section": "快速公路76號(埔心交流道到埔鹽系統交流道)",
+        "from": "埔心交流道",
+        "to": "埔鹽系統交流道",
+        "speed": 74.0,
+        "congestionDegree": "2",
+        "direction": "往埔鹽系統"
+      },
+      {
+        "sectionId": "2136",
+        "section": "快速公路76號(員林交流道到埔心交流道)",
+        "from": "員林交流道",
+        "to": "埔心交流道",
+        "speed": 72.0,
+        "congestionDegree": "2",
+        "direction": "往埔鹽系統"
+      },
+      {
+        "sectionId": "2138",
+        "section": "快速公路76號(林厝交流道到員林交流道)",
+        "from": "林厝交流道",
+        "to": "員林交流道",
+        "speed": 74.0,
+        "congestionDegree": "2",
+        "direction": "往埔鹽系統"
+      },
+      {
+        "sectionId": "2140",
+        "section": "快速公路76號(中興系統交流道到林厝交流道)",
+        "from": "中興系統交流道",
+        "to": "林厝交流道",
+        "speed": 84.0,
+        "congestionDegree": "1",
+        "direction": "往埔鹽系統"
+      }
+    ],
+    "快速公路88號": [
+      {
+        "sectionId": "2221",
+        "section": "快速公路88號(五甲系統交流道到鳳山交流道)",
+        "from": "五甲系統交流道",
+        "to": "鳳山交流道",
+        "speed": 82.0,
+        "congestionDegree": "1",
+        "direction": "往竹田系統"
+      },
+      {
+        "sectionId": "2223",
+        "section": "快速公路88號(鳳山交流道到大寮交流道)",
+        "from": "鳳山交流道",
+        "to": "大寮交流道",
+        "speed": 78.0,
+        "congestionDegree": "2",
+        "direction": "往竹田系統"
+      },
+      {
+        "sectionId": "2225",
+        "section": "快速公路88號(大寮交流道到大發交流道)",
+        "from": "大寮交流道",
+        "to": "大發交流道",
+        "speed": 81.0,
+        "congestionDegree": "1",
+        "direction": "往竹田系統"
+      },
+      {
+        "sectionId": "2227",
+        "section": "快速公路88號(大發交流道到萬丹交流道)",
+        "from": "大發交流道",
+        "to": "萬丹交流道",
+        "speed": 93.0,
+        "congestionDegree": "1",
+        "direction": "往竹田系統"
+      },
+      {
+        "sectionId": "2229",
+        "section": "快速公路88號(萬丹交流道到竹田系統交流道)",
+        "from": "萬丹交流道",
+        "to": "竹田系統交流道",
+        "speed": 88.0,
+        "congestionDegree": "1",
+        "direction": "往竹田系統"
+      },
+      {
+        "sectionId": "2233",
+        "section": "快速公路88號(竹田系統交流道到竹田端)",
+        "from": "竹田系統交流道",
+        "to": "竹田端",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往竹田系統"
+      },
+      {
+        "sectionId": "2222",
+        "section": "快速公路88號(鳳山交流道到五甲系統交流道)",
+        "from": "鳳山交流道",
+        "to": "五甲系統交流道",
+        "speed": 90.0,
+        "congestionDegree": "1",
+        "direction": "往五甲系統"
+      },
+      {
+        "sectionId": "2224",
+        "section": "快速公路88號(大寮交流道到鳳山交流道)",
+        "from": "大寮交流道",
+        "to": "鳳山交流道",
+        "speed": 91.0,
+        "congestionDegree": "1",
+        "direction": "往五甲系統"
+      },
+      {
+        "sectionId": "2226",
+        "section": "快速公路88號(大發交流道到大寮交流道)",
+        "from": "大發交流道",
+        "to": "大寮交流道",
+        "speed": 79.0,
+        "congestionDegree": "2",
+        "direction": "往五甲系統"
+      },
+      {
+        "sectionId": "2228",
+        "section": "快速公路88號(萬丹交流道到大發交流道)",
+        "from": "萬丹交流道",
+        "to": "大發交流道",
+        "speed": 87.0,
+        "congestionDegree": "1",
+        "direction": "往五甲系統"
+      },
+      {
+        "sectionId": "2230",
+        "section": "快速公路88號(竹田系統交流道到萬丹交流道)",
+        "from": "竹田系統交流道",
+        "to": "萬丹交流道",
+        "speed": 83.0,
+        "congestionDegree": "1",
+        "direction": "往五甲系統"
+      },
+      {
+        "sectionId": "2234",
+        "section": "快速公路88號(竹田端到竹田系統交流道)",
+        "from": "竹田端",
+        "to": "竹田系統交流道",
+        "speed": 67.0,
+        "congestionDegree": "2",
+        "direction": "往五甲系統"
+      }
+    ]
+  },
+  "timestamp": "2025-04-15T14:54:53.697199"
+}

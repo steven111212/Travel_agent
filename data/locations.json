@@ -1,0 +1,106 @@
+{
+    "台中": {
+        "city": "台中市",
+        "district": "北區"
+    },
+    "千巧谷": {
+        "city": "雲林縣",
+        "district": "崙背鄉"
+    },
+    "陽明山": {
+        "city": "臺北市",
+        "district": "士林區"
+    },
+    "高雄": {
+        "city": "高雄市",
+        "district": null
+    },
+    "台北101": {
+        "city": "臺北市",
+        "district": "信義區"
+    },
+    "花蓮": {
+        "city": "花蓮縣",
+        "district": null
+    },
+    "羅東夜市": {
+        "city": "宜蘭縣",
+        "district": "羅東鎮"
+    },
+    "知本溫泉": {
+        "city": "台東縣",
+        "district": "卑南鄉"
+    },
+    "日月潭": {
+        "city": "南投縣",
+        "district": "魚池鄉"
+    },
+    "大坑": {
+        "city": "台中市",
+        "district": "北屯區"
+    },
+    "象山": {
+        "city": "台北市",
+        "district": "信義區"
+    },
+    "松山": {
+        "city": "台北市",
+        "district": "松山區"
+    },
+    "台北市": {
+        "city": "臺北市",
+        "district": null
+    },
+    "千橋股": {
+        "city": "雲林縣",
+        "district": "崙背鄉"
+    },
+    "台東": {
+        "city": "台東縣",
+        "district": null
+    },
+    "屏東": {
+        "city": "屏東縣",
+        "district": null
+    },
+    "基隆": {
+        "city": "基隆市",
+        "district": null
+    },
+    "桃園": {
+        "city": "桃園市",
+        "district": "桃園區"
+    },
+    "澎湖": {
+        "city": "澎湖縣",
+        "district": null
+    },
+    "金門": {
+        "city": "金門縣",
+        "district": null
+    },
+    "樸新牧場": {
+        "city": "桃園市",
+        "district": "楊梅區"
+    },
+    "鳳山": {
+        "city": "高雄市",
+        "district": "鳳山區"
+    },
+    "新竹": {
+        "city": "新竹市",
+        "district": "東區"
+    },
+    "宜蘭": {
+        "city": "宜蘭縣",
+        "district": null
+    },
+    "目的地未指定": {
+        "city": "台北市",
+        "district": "中山區"
+    },
+    "擎天崗": {
+        "city": "台北市",
+        "district": "士林區"
+    }
+}
