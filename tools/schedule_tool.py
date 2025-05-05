@@ -13,7 +13,7 @@ class ScheduleTool(BaseTool):
 
     def __init__(self):
         super().__init__()
-        self._llm = OpenAI(api_key='sk-56d9f30fdee64135abcfaaee7b34080a', base_url='https://api.deepseek.com')
+        self._llm = OpenAI(api_key='your-key', base_url='https://api.deepseek.com')
 
     def _run(self, query_input: str, history_messages : list) -> str:
         """
