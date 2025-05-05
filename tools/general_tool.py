@@ -14,7 +14,7 @@ class GeneralTool(BaseTool):
     def __init__(self):
         super().__init__()
         
-    def _run(self, query_input: str) -> str:
+    def _run(self, query_input: str, history_messages : list) -> str:
         """
         執行通用查詢
         參數:
@@ -23,10 +23,10 @@ class GeneralTool(BaseTool):
         返回:
             str: 格式化的查詢回應
         """
-        response = self._llm_api(query_input)
+        response = self._llm_api(query_input, history_messages)
         return response
     
-    def _llm_api(self, query):
+    def _llm_api(self, query, history_messages):
         """使用LLM API解析用戶查詢，增強錯誤處理"""
         try:
             system_prompt = """你是一個友善的旅遊助手，可以回答各種旅遊相關問題。
@@ -47,7 +47,7 @@ class GeneralTool(BaseTool):
 如果問題不清楚或太寬泛，可以提供一般性的旅遊建議或反問來澄清用戶的需求。
 """
 
-            messages = [{"role": "system", "content": system_prompt},
+            messages = history_messages[:-1]+[{"role": "system", "content": system_prompt},
                         {"role": "user", "content": query}]
             
             response = litellm.completion(

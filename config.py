@@ -13,6 +13,9 @@ API_TYPE = os.getenv('API_TYPE')
 MODEL = os.getenv('MODEL')
 CLIENT_ID = os.getenv('CLIENT_ID')
 CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+DEEPSEEK_API_KEY = os.getenv('DEEPEEK_API_KEY')
+DEEPSEEK_BASE_URL = os.getenv('DEEPEEK_BASE_URL')
+DEEPSEEK_MODEL = os.getenv('DEEPEEK_MODEL')
 
 # LLM Configuration
 LLM_CONFIG = {
@@ -20,6 +23,12 @@ LLM_CONFIG = {
     "base_url": LLM_BASE_URL,
     "api_key": LLM_API_KEY,
     "temperature": 0.2,
+}
+
+DEEPSEEK_CONFIG = {
+    "model": DEEPSEEK_MODEL,
+    "base_url": DEEPSEEK_BASE_URL,
+    "api_key": DEEPSEEK_API_KEY
 }
 
 # Other configurations
@@ -33,3 +42,4 @@ CITY_MAP_JSON_PATH = "data/city_map.json"
 MAX_TOKENS = 500
 INTENT_CLASSIFICATION_TEMPERATURE = 0.1
 GENERAL_RESPONSE_TEMPERATURE = 0.7
+

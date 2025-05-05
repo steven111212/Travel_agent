@@ -36,7 +36,7 @@ class HighwayTool(BaseTool):
         self._highway_service = HighwayService()
         self._route_service = RouteService()
         
-    def _run(self, query_input: str) -> str:
+    def _run(self, query_input: str, history_messages : list) -> str:
         """
         執行高速公路交通資訊查詢
         
@@ -47,7 +47,7 @@ class HighwayTool(BaseTool):
             str: 格式化的高速公路交通資訊回應
         """
         # 1. 解析用戶查詢
-        query_info = self._llm_api(query_input)
+        query_info = self._llm_api(query_input, history_messages)
         
         # 2. 使用模糊匹配機制處理高速公路名稱
         query_info = self._resolve_highway_names(query_info)
@@ -95,27 +95,18 @@ class HighwayTool(BaseTool):
             address = place.get('formatted_address', '無地址資訊')
 
             highway_list_data = {}
-            if not query_info['highway']:
-                # 根據地址找出相關的高速公路
-                region_found = False
-                for region, highways in region_highway_map.items():
-                    if region in address:
+
+            for region, highways in region_highway_map.items():
+                if region in address:
+                    if isinstance(query_info['highway'], list):
+                        highways += query_info['highway']
+                        highways = list(set(highways))
                         highway_list_data = {key: highways_data[key] for key in highways if key in highways_data}
-                        region_found = True
-                        break
-                        
-                if not region_found:
-                    return f"找不到與「{address}」相關的高速公路資訊。目前系統支援的地區包括：{', '.join(region_highway_map.keys())}。"
-            else:
-                # 使用用戶指定的高速公路
-                if isinstance(query_info['highway'], list):
-                    highway_list_data = {key: highways_data[key] for key in query_info['highway'] if key in highways_data}
-                else:
-                    highway = query_info['highway']
-                    if highway in highways_data:
-                        highway_list_data = {highway: highways_data[highway]}
                     else:
-                        return f"找不到「{highway}」的交通資訊。"
+                        highways += [query_info['highway']]
+                        highways = list(set(highways))
+                        highway_list_data = {key: highways_data[key] for key in highways if key in highways_data}
+                    break
 
             if highway_list_data:
                 highway_status = self._analyze_traffic_congestion(highway_list_data, display_congestion_degrees = ['2', '3', '4', '5'])
@@ -126,7 +117,7 @@ class HighwayTool(BaseTool):
 
     注意：上述「國道壅塞路段資訊」僅列出目前壅塞和嚴重壅塞的路段，未列出的路段表示交通非常順暢。
 
-    重要限制：僅回應與交通和道路狀況相關的資訊，其他資訊會調用其他工具來解決，禁止給任何建議，禁止回答國道路況以外的問題。
+    重要限制：僅回應與交通和道路狀況相關的資訊，禁止給任何建議，禁止回答國道路況以外的問題，也不要說你無法提供或是建議。
 
     分析用戶查詢的位置，推測用戶可能使用的國道路段。
     接著，從國道目前的交通狀況中只篩選出與用戶所查尋地址相關的國道路段資訊：
@@ -160,8 +151,8 @@ class HighwayTool(BaseTool):
         if not results:
             return f"無法找到從 {query_info['origin']} 到 {query_info['destination']} 的路線信息。請提供更具體的地點名稱。"
         route = results[0]
-        simplified_route = route['simplified_route']
-        #detail_route = route['detailed_route']
+        # simplified_route = route['simplified_route']
+        detail_route = route['detail_route']
 
         highway_list = self._extract_matches(route['summary'])
         highway_list_data = {key: highways_data[key] for key in highway_list if key in highways_data}
@@ -171,12 +162,12 @@ class HighwayTool(BaseTool):
             用戶查詢問題：{query}
             用戶的出發地: {query_info['origin']}
             用戶的目的地: {query_info['destination']}
-            簡要的行車路線描述: {simplified_route}
+            行車路線描述: {detail_route}
             國道目前的交通狀況: {highway_status}
 
 注意：上述「國道壅塞路段資訊」僅列出目前壅塞和嚴重壅塞的路段，未列出的路段表示交通非常順暢。
 
-重要限制：僅回應與交通和道路狀況相關的資訊，其他資訊會調用其他工具來解決，禁止給任何建議，禁止回答國道路況以外的問題。
+重要限制：僅回應與交通和道路狀況相關的資訊，禁止給任何建議，禁止回答國道路況以外的問題，也不要說你無法提供或是建議。
 
 首先，分析用戶的出發地和目的地位置，確定他們將使用的國道路段和行駛方向（北向或南向）。
 
@@ -230,11 +221,12 @@ class HighwayTool(BaseTool):
         return result
 
 
-    def _llm_api(self, query):
+    def _llm_api(self, query, history_messages):
         """使用LLM API解析用戶查詢，增強錯誤處理"""
         try:
-            prompt = self._create_prompt(query)
-            messages = [{"role": "system", "content": prompt}]
+            prompt = self._create_prompt()
+            #print(history_messages)
+            messages = history_messages[:-1] + [{"role": "system", "content": prompt}, {"role":"user", "content":query}]
             response = litellm.completion(
                 api_key=LLM_API_KEY,
                 api_base=LLM_BASE_URL,
@@ -275,7 +267,7 @@ class HighwayTool(BaseTool):
                 "destination": None
             }
 
-    def _create_prompt(self, query: str) -> str:
+    def _create_prompt(self) -> str:
         """
         創建 LLM 解析用的提示
         
@@ -285,14 +277,14 @@ class HighwayTool(BaseTool):
         返回:
             str: LLM 提示
         """
-        prompt = f"""您是一位專業的交通資訊分析助手，負責解析用戶的高速公路路況查詢請求。請分析以下用戶的查詢，並提取關鍵資訊，以JSON格式回傳。
+        prompt = f"""您是一位專業的交通資訊分析助手，負責解析用戶的高速公路路況查詢請求。請分析用戶的查詢及歷史對話紀錄，並提取關鍵資訊，以JSON格式回傳。
 
 您需要識別以下資訊：
 1. highway (國道名稱): 例如國道1號、國道3號等, 如果用戶提到多條國道，請將它們以列表形式返回
 2. origin (出發地): 用戶提到的出發地點
 3. destination (目的地): 用戶提到的目的地點
 
-如果用戶詢問國道路況但沒有提供具體的國道名稱，一律當作詢問國道1號。
+如果用戶詢問國道路況但沒有提供具體的國道名稱又沒提供地點，一律當作詢問國道1號。
 
 可能的國道名稱包括：
 ['國道1號', '汐五高架', '國道2號', '國2甲', '國道3號', '國3甲', '台2己', '南港連絡道', '國道4號', '國道5號', '國道6號', '國道8號', '國道10號', '快速公路76號', '快速公路88號']
@@ -300,8 +292,6 @@ class HighwayTool(BaseTool):
 請注意：
 - 如果某項資訊未在查詢中提及，請將該欄位設為null。
 
-用戶查詢：
-{query}
 
 請以以下JSON格式回覆：
 ```json
@@ -608,10 +598,10 @@ if __name__ == "__main__":
     test_queries = [
         "中山高現在塞車嗎？",
         "國一和國三的路況如何？",
+        "台中到台南國一和國三順暢嗎",
         "二高南下台中路段壅塞嗎？",
         "機場聯絡道有沒有車多的情況？",
         "國道路況如何？",
-        "台中到台南國一和國三順暢嗎"
     ]
     
     for query in test_queries:

@@ -106,7 +106,7 @@ class RouteService:
             results = []
             
             for i, route in enumerate(routes, 1):
-                if i==3:
+                if i==2:
                     break
                 # 獲取路線概要
                 summary = route.get('summary', '無摘要')
@@ -155,16 +155,16 @@ class RouteService:
                     detail_route += f"{j}. {instruction} ({step_distance})\n"
                 
                 # 使用LLM生成簡化路線
-                try:
-                    prompt = self.create_prompt(detail_route)
-                    messages = [{"role": "system", "content": prompt}]
+                # try:
+                #     prompt = self.create_prompt(detail_route)
+                #     messages = [{"role": "system", "content": prompt}]
 
-                    response = transportation_llm_api(messages=messages, max_tokens=500, temperature=0.2)
-                    simplified_route = response
+                #     response = transportation_llm_api(messages=messages, max_tokens=500, temperature=0.2)
+                #     simplified_route = response
                     
-                except Exception as e:
-                    print(f"生成簡化路線時出錯: {str(e)}")
-                    simplified_route = "請沿著主要道路前往目的地。詳細路線請參考Google Maps導航。"
+                # except Exception as e:
+                #     print(f"生成簡化路線時出錯: {str(e)}")
+                #     simplified_route = "請沿著主要道路前往目的地。詳細路線請參考Google Maps導航。"
                 
                 results.append({
                     'origin': origin+"("+origin_address+")",
@@ -175,7 +175,7 @@ class RouteService:
                     'duration': duration,
                     'arrival_time': arrival_time.strftime('%H:%M:%S'),
                     'detail_route': detail_route,
-                    'simplified_route': simplified_route,
+                    #'simplified_route': simplified_route,
                     'google_maps_url': route_specific_url
                 })
                 
@@ -184,7 +184,7 @@ class RouteService:
             print(f"獲取駕車路線時出錯: {str(e)}")
             return []
     
-    def get_transit_routes(self, origin, destination, language="zh-TW", alternatives=True, max_routes=2):
+    def get_transit_routes(self, origin, destination, language="zh-TW", alternatives=True, max_routes=1):
         """獲取公共交通路線"""
         try:
             # 準備請求參數
@@ -363,14 +363,14 @@ class RouteService:
                 detail_route += f"預計到達時間: {arrival_time.strftime('%H:%M:%S')}\n"
                 
                 # 使用LLM生成簡化路線描述
-                try:
-                    prompt = self.create_prompt(detail_route)
-                    messages = [{"role": "system", "content": prompt}]
+                # try:
+                #     prompt = self.create_prompt(detail_route)
+                #     messages = [{"role": "system", "content": prompt}]
                     
-                    simplified_route = transportation_llm_api(messages=messages, max_tokens=500, temperature=0.2)
-                except Exception as e:
-                    print(f"生成簡化路線時出錯: {str(e)}")
-                    simplified_route = "請依序訪問所有景點。詳細路線請參考Google Maps導航。"
+                #     simplified_route = transportation_llm_api(messages=messages, max_tokens=500, temperature=0.2)
+                # except Exception as e:
+                #     print(f"生成簡化路線時出錯: {str(e)}")
+                #     simplified_route = "請依序訪問所有景點。詳細路線請參考Google Maps導航。"
                 
                 # 生成最終的Google Maps URL，包含最佳化的途經點順序
                 optimized_url = self.create_google_maps_url(
@@ -389,7 +389,7 @@ class RouteService:
                     'total_duration': total_duration_text,
                     'arrival_time': arrival_time.strftime('%H:%M:%S'),
                     'detail_route': detail_route,
-                    'simplified_route': simplified_route,
+                    #'simplified_route': simplified_route,
                     'google_maps_url': optimized_url
                 })
                 

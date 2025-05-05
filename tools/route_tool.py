@@ -32,11 +32,11 @@ class RouteTool(BaseTool):
         super().__init__()
         self._route_service = RouteService()
     
-    def _run(self, query_input: str) -> str:
+    def _run(self, query_input: str, history_messages: list) -> str:
         """執行路線查詢"""
         try:
             # 使用 LLM API 獲取結構化的路線資訊
-            route_info = self._llm_api(query_input)
+            route_info = self._llm_api(query_input, history_messages)
 
             if route_info['mode'] == 'driving':
                 # 如果交通方式是開車，並且有沿途景點，則獲取路線資訊
@@ -109,11 +109,11 @@ class RouteTool(BaseTool):
             # 如果所有嘗試都失敗，返回錯誤
             raise ValueError(f"無法從回應中提取 JSON: {response_text}")
 
-    def _create_prompt(self, query: str) -> str:
+    def _create_prompt(self) -> str:
         prompt = f"""您的任務是識別用戶旅遊查詢中的關鍵資訊，並將其轉換為結構化的JSON格式。
 
 輸入分析要求
-分析用戶的輸入查詢，識別以下關鍵資訊：
+分析用戶的輸入查詢和歷史對話，識別以下關鍵資訊：
 
 出發地 (origin) - 必須識別
 目的地 (destination) - 必須識別
@@ -134,14 +134,13 @@ class RouteTool(BaseTool):
   "mode": "交通方式",
   "attractions": ["景點1", "景點2", ...]
 }}
-
-{query}
 """
         return prompt
 
-    def _llm_api(self, query):
-        prompt = self._create_prompt(query)
-        messages = [{"role": "system", "content": prompt}]
+    def _llm_api(self, query, history_messages):
+        prompt = self._create_prompt()
+        messages = history_messages[:-1] + [{"role": "system", "content": prompt}, {"role":"user", "content":query}]
+        #print(messages)
         try:
             response = litellm.completion(
                 api_key=LLM_API_KEY,
@@ -153,6 +152,7 @@ class RouteTool(BaseTool):
             )
             response_text = response.choices[0].message.content
             cleaned_response = self._clean_llm_response(response_text)
+            print(cleaned_response)
             return json.loads(cleaned_response)
         except Exception as e:
             print(f"LLM API 錯誤: {str(e)}")
@@ -207,8 +207,9 @@ class RouteTool(BaseTool):
             response += f"📏 距離: {route['distance']}\n"
             response += f"🕒 預計到達時間: {route['arrival_time']}\n\n"
             
-            response += "📝 簡化路線說明:\n"
-            response += f"{route['simplified_route']}\n\n"
+            response += "📝 路線說明:\n"
+            # response += f"{route['simplified_route']}\n\n"
+            response += f"{route['detail_route']}\n\n"
             
             response += f"🔗 Google Maps導航: {route['google_maps_url']}\n"
             response += "==================\n\n"
@@ -328,8 +329,8 @@ class RouteTool(BaseTool):
                 response += f"  {i}. {seq}\n"
             
             response += "\n📝 簡化路線說明:\n"
-            response += f"{route['simplified_route']}\n\n"
-            
+            #response += f"{route['simplified_route']}\n\n"
+            response += f"{route['detail_route']}\n\n"
             response += f"🔗 Google Maps導航: {route['google_maps_url']}\n"
             response += "==================\n\n"
         

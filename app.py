@@ -35,17 +35,30 @@ def chat():
         start_time = time.time()
         
         # Process the query through the travel assistant
-        response = travel_assistant.process_query(user_message)
+        result = travel_assistant.process_query(user_message)
         
         # 計算處理時間
         elapsed_time = time.time() - start_time
         print(f"處理時間: {elapsed_time:.2f}秒")
         
-        return jsonify({'response': response})
+        return jsonify({
+            'response': result['response'],
+            'history': result['history']
+        })
                 
     except Exception as e:
         print(f"Error processing request: {str(e)}")
         return jsonify({'response': f'發生錯誤: {str(e)}'})
+    
+@app.route('/clear_history', methods=['POST'])
+def clear_history():
+    """清除對話歷史"""
+    try:
+        travel_assistant.clear_chat_history()
+        return jsonify({'status': 'success', 'message': '對話歷史已清除'})
+    except Exception as e:
+        print(f"Error clearing history: {str(e)}")
+        return jsonify({'status': 'error', 'message': f'清除歷史時發生錯誤: {str(e)}'})
 
 # 確保 JS 檔案可以被正確提供
 @app.route('/static/<path:filename>')

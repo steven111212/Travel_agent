@@ -18,7 +18,7 @@ class ParkingTool(BaseTool):
         super().__init__()
         self._parking_service = ParkingService()
 
-    def _run(self, query_input: str) -> str:
+    def _run(self, query_input: str, history_messages : list) -> str:
         """
         執行停車場資訊查詢
         
@@ -29,7 +29,7 @@ class ParkingTool(BaseTool):
             str: 格式化的高速公路交通資訊回應
         """
         try:
-            location = self._llm_api(query_input)
+            location = self._llm_api(query_input, history_messages)
             
             if not location or location.strip() == "":
                 return "無法從您的查詢中識別出具體地點，請提供更明確的地址或地標。"
@@ -68,12 +68,12 @@ class ParkingTool(BaseTool):
         
 
 
-    def _llm_api(self, query):
+    def _llm_api(self, query, history_messages):
         """使用LLM API解析用戶查詢，增強錯誤處理"""
        
         prompt = f"""請從以下用戶輸入中識別出具體的地點或目的地，只需回傳地點名稱，不需要其他解釋：
         用戶輸入：{query}"""
-        messages = [{"role": "system", "content": prompt}]
+        messages = history_messages[:-1]+[{"role": "system", "content": prompt}]
         response = litellm.completion(
             api_key=LLM_API_KEY,
             api_base=LLM_BASE_URL,
